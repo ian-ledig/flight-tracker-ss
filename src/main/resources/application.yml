@@ -1,10 +1,5 @@
 opensky:
   api:
-    url: https://opensky-network.org/api
-    username: your-username
-    password: your-password
+    url: https://api.adsbdb.com/v0
 server:
   port: 8080
-spring:
-  webflux:
-    base-path: /api
