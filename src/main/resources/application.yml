@@ -1,0 +1,10 @@
+opensky:
+  api:
+    url: https://opensky-network.org/api
+    username: your-username
+    password: your-password
+server:
+  port: 8080
+spring:
+  webflux:
+    base-path: /api
