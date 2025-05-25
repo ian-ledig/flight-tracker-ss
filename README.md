@@ -47,8 +47,8 @@ Spring Boot backend application designed to fetch and serve real-time flight dat
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/flight-tracking-backend.git
-   cd flight-tracking-backend
+   git clone https://github.com/ian-ledig/flight-tracker-ss.git
+   cd flight-tracker-ss
    ```
 
 2. **Install dependencies**:
@@ -126,7 +126,7 @@ Spring Boot backend application designed to fetch and serve real-time flight dat
 flight-tracking-backend/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/yourpackage/
+│   │   ├── java/com/flighttracker/flight_tracker_ss/
 │   │   │   ├── config/         # Configuration classes (WebClient, CORS)
 │   │   │   ├── controller/     # REST controllers for API endpoints
 │   │   │   ├── service/        # Business logic for fetching/processing flight data
