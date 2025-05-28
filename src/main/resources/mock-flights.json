@@ -1,0 +1,5309 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 13926
+    },
+    "data": [
+        {
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-28T06:15:00+00:00",
+                "estimated": "2025-05-28T06:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": "I",
+                "gate": "84",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T08:10:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7268",
+                "iata": "AA7268",
+                "icao": "AAL7268",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "120",
+                    "flight_iata": "qf120",
+                    "flight_icao": "qfa120"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "D21",
+                "delay": null,
+                "scheduled": "2025-05-28T06:15:00+00:00",
+                "estimated": "2025-05-28T06:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": null,
+                "baggage": "DTB1",
+                "delay": null,
+                "scheduled": "2025-05-28T07:35:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9037",
+                "iata": "AA9037",
+                "icao": "AAL9037",
+                "codeshared": {
+                    "airline_name": "jetstar",
+                    "airline_iata": "jq",
+                    "airline_icao": "jst",
+                    "flight_number": "226",
+                    "flight_iata": "jq226",
+                    "flight_icao": "jst226"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Wellington International",
+                "timezone": "Pacific/Auckland",
+                "iata": "WLG",
+                "icao": "NZWN",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-28T06:30:00+00:00",
+                "estimated": "2025-05-28T06:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T07:15:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7346",
+                "iata": "AA7346",
+                "icao": "AAL7346",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "139",
+                    "flight_iata": "qf139",
+                    "flight_icao": "qfa139"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Soekarno-Hatta International",
+                "timezone": "Asia/Jakarta",
+                "iata": "CGK",
+                "icao": "WIII",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-28T00:55:00+00:00",
+                "estimated": "2025-05-28T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": null,
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2025-05-28T05:20:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8151",
+                "iata": "AA8151",
+                "icao": "AAL8151",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "955",
+                    "flight_iata": "qr955",
+                    "flight_icao": "qtr955"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-28T06:45:00+00:00",
+                "estimated": "2025-05-28T06:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "58",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-28T08:20:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7264",
+                "iata": "AA7264",
+                "icao": "AAL7264",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "4",
+                    "flight_iata": "qf4",
+                    "flight_icao": "qfa4"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": "21",
+                "delay": null,
+                "scheduled": "2025-05-28T06:45:00+00:00",
+                "estimated": "2025-05-28T06:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Wellington International",
+                "timezone": "Pacific/Auckland",
+                "iata": "WLG",
+                "icao": "NZWN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T07:50:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9039",
+                "iata": "AA9039",
+                "icao": "AAL9039",
+                "codeshared": {
+                    "airline_name": "jetstar",
+                    "airline_iata": "jq",
+                    "airline_icao": "jst",
+                    "flight_number": "253",
+                    "flight_iata": "jq253",
+                    "flight_icao": "jst253"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Christchurch International",
+                "timezone": "Pacific/Auckland",
+                "iata": "CHC",
+                "icao": "NZCH",
+                "terminal": null,
+                "gate": "I29",
+                "delay": null,
+                "scheduled": "2025-05-28T06:00:00+00:00",
+                "estimated": "2025-05-28T06:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "55",
+                "baggage": "12",
+                "delay": null,
+                "scheduled": "2025-05-28T07:30:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7292",
+                "iata": "AA7292",
+                "icao": "AAL7292",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "138",
+                    "flight_iata": "qf138",
+                    "flight_icao": "qfa138"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Wellington International",
+                "timezone": "Pacific/Auckland",
+                "iata": "WLG",
+                "icao": "NZWN",
+                "terminal": null,
+                "gate": "48",
+                "delay": null,
+                "scheduled": "2025-05-28T06:05:00+00:00",
+                "estimated": "2025-05-28T06:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "31",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2025-05-28T07:45:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7384",
+                "iata": "AA7384",
+                "icao": "AAL7384",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "162",
+                    "flight_iata": "qf162",
+                    "flight_icao": "qfa162"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-28T06:00:00+00:00",
+                "estimated": "2025-05-28T06:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "63",
+                "baggage": "11",
+                "delay": null,
+                "scheduled": "2025-05-28T07:45:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7271",
+                "iata": "AA7271",
+                "icao": "AAL7271",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "140",
+                    "flight_iata": "qf140",
+                    "flight_icao": "qfa140"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-05-28T00:50:00+00:00",
+                "estimated": "2025-05-28T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Francisco International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T22:40:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8930",
+                "iata": "AA8930",
+                "icao": "AAL8930",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "872",
+                    "flight_iata": "cx872",
+                    "flight_icao": "cpa872"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "3",
+                "gate": "109",
+                "delay": null,
+                "scheduled": "2025-05-28T00:05:00+00:00",
+                "estimated": "2025-05-28T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T06:10:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8487",
+                "iata": "AA8487",
+                "icao": "AAL8487",
+                "codeshared": {
+                    "airline_name": "japan airlines",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "35",
+                    "flight_iata": "jl35",
+                    "flight_icao": "jal35"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "3",
+                "gate": "111",
+                "delay": null,
+                "scheduled": "2025-05-28T01:20:00+00:00",
+                "estimated": "2025-05-28T01:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T05:50:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8485",
+                "iata": "AA8485",
+                "icao": "AAL8485",
+                "codeshared": {
+                    "airline_name": "japan airlines",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "33",
+                    "flight_iata": "jl33",
+                    "flight_icao": "jal33"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Ngurah Rai International",
+                "timezone": "Asia/Makassar",
+                "iata": "DPS",
+                "icao": "WADD",
+                "terminal": "I",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-28T00:35:00+00:00",
+                "estimated": "2025-05-28T00:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": null,
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-28T04:55:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8306",
+                "iata": "AA8306",
+                "icao": "AAL8306",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "961",
+                    "flight_iata": "qr961",
+                    "flight_icao": "qtr961"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "3",
+                "gate": "140",
+                "delay": null,
+                "scheduled": "2025-05-28T01:55:00+00:00",
+                "estimated": "2025-05-28T01:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Ninoy Aquino International",
+                "timezone": "Asia/Manila",
+                "iata": "MNL",
+                "icao": "RPLL",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T05:40:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8345",
+                "iata": "AA8345",
+                "icao": "AAL8345",
+                "codeshared": {
+                    "airline_name": "philippine airlines",
+                    "airline_iata": "pr",
+                    "airline_icao": "pal",
+                    "flight_number": "423",
+                    "flight_iata": "pr423",
+                    "flight_icao": "pal423"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Soekarno-Hatta International",
+                "timezone": "Asia/Jakarta",
+                "iata": "CGK",
+                "icao": "WIII",
+                "terminal": "3",
+                "gate": "6",
+                "delay": null,
+                "scheduled": "2025-05-28T00:05:00+00:00",
+                "estimated": "2025-05-28T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T06:05:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8918",
+                "iata": "AA8918",
+                "icao": "AAL8918",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "798",
+                    "flight_iata": "cx798",
+                    "flight_icao": "cpa798"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-05-28T00:05:00+00:00",
+                "estimated": "2025-05-28T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T22:05:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8933",
+                "iata": "AA8933",
+                "icao": "AAL8933",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "880",
+                    "flight_iata": "cx880",
+                    "flight_icao": "cpa880"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "3",
+                "gate": "112",
+                "delay": null,
+                "scheduled": "2025-05-28T01:30:00+00:00",
+                "estimated": "2025-05-28T01:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-28T05:25:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8493",
+                "iata": "AA8493",
+                "icao": "AAL8493",
+                "codeshared": {
+                    "airline_name": "japan airlines",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "79",
+                    "flight_iata": "jl79",
+                    "flight_icao": "jal79"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-28",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Denver International",
+                "timezone": "America/Denver",
+                "iata": "DEN",
+                "icao": "KDEN",
+                "terminal": null,
+                "gate": "C38",
+                "delay": 16,
+                "scheduled": "2025-05-27T05:00:00+00:00",
+                "estimated": "2025-05-27T05:00:00+00:00",
+                "actual": "2025-05-27T05:16:00+00:00",
+                "estimated_runway": "2025-05-27T05:16:00+00:00",
+                "actual_runway": "2025-05-27T05:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "B",
+                "gate": "B6",
+                "baggage": "B5",
+                "delay": null,
+                "scheduled": "2025-05-27T07:59:00+00:00",
+                "estimated": "2025-05-27T07:46:00+00:00",
+                "actual": "2025-05-27T07:46:00+00:00",
+                "estimated_runway": "2025-05-27T07:46:00+00:00",
+                "actual_runway": "2025-05-27T07:46:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "2612",
+                "iata": "AA2612",
+                "icao": "AAL2612",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N151UW",
+                "iata": "A321",
+                "icao": "A321",
+                "icao24": "A0CFBD"
+            },
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "3",
+                "gate": "9",
+                "delay": 17,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:37:00+00:00",
+                "estimated_runway": "2025-05-27T07:37:00+00:00",
+                "actual_runway": "2025-05-27T07:37:00+00:00"
+            },
+            "arrival": {
+                "airport": "Gardermoen",
+                "timezone": "Europe/Oslo",
+                "iata": "OSL",
+                "icao": "ENGM",
+                "terminal": "7",
+                "gate": null,
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2025-05-27T10:25:00+00:00",
+                "estimated": "2025-05-27T10:21:00+00:00",
+                "actual": "2025-05-27T10:22:00+00:00",
+                "estimated_runway": "2025-05-27T10:22:00+00:00",
+                "actual_runway": "2025-05-27T10:22:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "6880",
+                "iata": "AA6880",
+                "icao": "AAL6880",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "760",
+                    "flight_iata": "ba760",
+                    "flight_icao": "baw760"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": "B45",
+                "delay": 37,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:56:00+00:00",
+                "estimated_runway": "2025-05-27T07:56:00+00:00",
+                "actual_runway": "2025-05-27T07:56:00+00:00"
+            },
+            "arrival": {
+                "airport": "Athens International Airport \"Eleftherios Venizelos\"",
+                "timezone": "Europe/Athens",
+                "iata": "ATH",
+                "icao": "LGAV",
+                "terminal": "M",
+                "gate": null,
+                "baggage": "04",
+                "delay": null,
+                "scheduled": "2025-05-27T13:05:00+00:00",
+                "estimated": "2025-05-27T12:56:00+00:00",
+                "actual": "2025-05-27T12:56:00+00:00",
+                "estimated_runway": "2025-05-27T12:56:00+00:00",
+                "actual_runway": "2025-05-27T12:56:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "6853",
+                "iata": "AA6853",
+                "icao": "AAL6853",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "638",
+                    "flight_iata": "ba638",
+                    "flight_icao": "baw638"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": "B48",
+                "delay": 15,
+                "scheduled": "2025-05-27T07:10:00+00:00",
+                "estimated": "2025-05-27T07:10:00+00:00",
+                "actual": "2025-05-27T07:24:00+00:00",
+                "estimated_runway": "2025-05-27T07:24:00+00:00",
+                "actual_runway": "2025-05-27T07:24:00+00:00"
+            },
+            "arrival": {
+                "airport": "Linate",
+                "timezone": "Europe/Rome",
+                "iata": "LIN",
+                "icao": "LIML",
+                "terminal": "2B",
+                "gate": null,
+                "baggage": "02",
+                "delay": null,
+                "scheduled": "2025-05-27T10:10:00+00:00",
+                "estimated": "2025-05-27T09:49:00+00:00",
+                "actual": "2025-05-27T09:51:00+00:00",
+                "estimated_runway": "2025-05-27T09:51:00+00:00",
+                "actual_runway": "2025-05-27T09:51:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "6829",
+                "iata": "AA6829",
+                "icao": "AAL6829",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "564",
+                    "flight_iata": "ba564",
+                    "flight_icao": "baw564"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K98",
+                "delay": 30,
+                "scheduled": "2025-05-27T08:00:00+00:00",
+                "estimated": "2025-05-27T08:00:00+00:00",
+                "actual": "2025-05-27T08:29:00+00:00",
+                "estimated_runway": "2025-05-27T08:29:00+00:00",
+                "actual_runway": "2025-05-27T08:29:00+00:00"
+            },
+            "arrival": {
+                "airport": "Valencia",
+                "timezone": "Europe/Madrid",
+                "iata": "VLC",
+                "icao": "LEVC",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "8",
+                "delay": 6,
+                "scheduled": "2025-05-27T09:05:00+00:00",
+                "estimated": "2025-05-27T09:07:00+00:00",
+                "actual": "2025-05-27T09:11:00+00:00",
+                "estimated_runway": "2025-05-27T09:11:00+00:00",
+                "actual_runway": "2025-05-27T09:11:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8715",
+                "iata": "AA8715",
+                "icao": "AAL8715",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1079",
+                    "flight_iata": "ib1079",
+                    "flight_icao": "ibe1079"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "9",
+                "delay": 17,
+                "scheduled": "2025-05-27T10:25:00+00:00",
+                "estimated": "2025-05-27T10:25:00+00:00",
+                "actual": "2025-05-27T10:42:00+00:00",
+                "estimated_runway": "2025-05-27T10:42:00+00:00",
+                "actual_runway": "2025-05-27T10:42:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D6",
+                "baggage": "D4",
+                "delay": null,
+                "scheduled": "2025-05-27T10:45:00+00:00",
+                "estimated": "2025-05-27T10:02:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7261",
+                "iata": "AA7261",
+                "icao": "AAL7261",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "7",
+                    "flight_iata": "qf7",
+                    "flight_icao": "qfa7"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "active"
+        },
+        {
+            "departure": {
+                "airport": "Melbourne - Tullamarine Airport",
+                "timezone": "Australia/Melbourne",
+                "iata": "MEL",
+                "icao": "YMML",
+                "terminal": "2",
+                "gate": "7",
+                "delay": 29,
+                "scheduled": "2025-05-27T11:55:00+00:00",
+                "estimated": "2025-05-27T11:55:00+00:00",
+                "actual": "2025-05-27T12:23:00+00:00",
+                "estimated_runway": "2025-05-27T12:23:00+00:00",
+                "actual_runway": "2025-05-27T12:23:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T09:10:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7349",
+                "iata": "AA7349",
+                "icao": "AAL7349",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "93",
+                    "flight_iata": "qf93",
+                    "flight_icao": "qfa93"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "active"
+        },
+        {
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "9",
+                "delay": 22,
+                "scheduled": "2025-05-27T10:05:00+00:00",
+                "estimated": "2025-05-27T10:05:00+00:00",
+                "actual": "2025-05-27T10:27:00+00:00",
+                "estimated_runway": "2025-05-27T10:27:00+00:00",
+                "actual_runway": "2025-05-27T10:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": "D",
+                "gate": "23",
+                "baggage": "D02",
+                "delay": null,
+                "scheduled": "2025-05-27T11:35:00+00:00",
+                "estimated": "2025-05-27T11:32:00+00:00",
+                "actual": "2025-05-27T11:31:00+00:00",
+                "estimated_runway": "2025-05-27T11:31:00+00:00",
+                "actual_runway": "2025-05-27T11:31:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7342",
+                "iata": "AA7342",
+                "icao": "AAL7342",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "512",
+                    "flight_iata": "qf512",
+                    "flight_icao": "qfa512"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Lehigh Valley International",
+                "timezone": "America/New_York",
+                "iata": "ABE",
+                "icao": "KABE",
+                "terminal": null,
+                "gate": "12",
+                "delay": 9,
+                "scheduled": "2025-05-27T05:25:00+00:00",
+                "estimated": "2025-05-27T05:25:00+00:00",
+                "actual": "2025-05-27T05:34:00+00:00",
+                "estimated_runway": "2025-05-27T05:34:00+00:00",
+                "actual_runway": "2025-05-27T05:34:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charlotte Douglas",
+                "timezone": "America/New_York",
+                "iata": "CLT",
+                "icao": "KCLT",
+                "terminal": "A",
+                "gate": "E16",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2025-05-27T07:12:00+00:00",
+                "estimated": "2025-05-27T06:49:00+00:00",
+                "actual": "2025-05-27T06:50:00+00:00",
+                "estimated_runway": "2025-05-27T06:50:00+00:00",
+                "actual_runway": "2025-05-27T06:50:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "5600",
+                "iata": "AA5600",
+                "icao": "AAL5600",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N702PS",
+                "iata": "CRJ7",
+                "icao": "CRJ7",
+                "icao24": "A95D52"
+            },
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "E8",
+                "delay": 15,
+                "scheduled": "2025-05-27T02:45:00+00:00",
+                "estimated": "2025-05-27T02:45:00+00:00",
+                "actual": "2025-05-27T03:00:00+00:00",
+                "estimated_runway": "2025-05-27T03:00:00+00:00",
+                "actual_runway": "2025-05-27T03:00:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ngurah Rai International",
+                "timezone": "Asia/Makassar",
+                "iata": "DPS",
+                "icao": "WADD",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2025-05-27T17:35:00+00:00",
+                "estimated": "2025-05-27T17:21:00+00:00",
+                "actual": "2025-05-27T17:26:00+00:00",
+                "estimated_runway": "2025-05-27T17:26:00+00:00",
+                "actual_runway": "2025-05-27T17:26:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8144",
+                "iata": "AA8144",
+                "icao": "AAL8144",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "962",
+                    "flight_iata": "qr962",
+                    "flight_icao": "qtr962"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "D7",
+                "delay": 11,
+                "scheduled": "2025-05-27T02:40:00+00:00",
+                "estimated": "2025-05-27T02:40:00+00:00",
+                "actual": "2025-05-27T02:51:00+00:00",
+                "estimated_runway": "2025-05-27T02:51:00+00:00",
+                "actual_runway": "2025-05-27T02:51:00+00:00"
+            },
+            "arrival": {
+                "airport": "Soekarno-Hatta International",
+                "timezone": "Asia/Jakarta",
+                "iata": "CGK",
+                "icao": "WIII",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T15:35:00+00:00",
+                "estimated": "2025-05-27T15:03:00+00:00",
+                "actual": "2025-05-27T15:06:00+00:00",
+                "estimated_runway": "2025-05-27T15:06:00+00:00",
+                "actual_runway": "2025-05-27T15:06:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8173",
+                "iata": "AA8173",
+                "icao": "AAL8173",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "956",
+                    "flight_iata": "qr956",
+                    "flight_icao": "qtr956"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Vilnius",
+                "timezone": "Europe/Vilnius",
+                "iata": "VNO",
+                "icao": "EYVI",
+                "terminal": null,
+                "gate": "A5",
+                "delay": 3,
+                "scheduled": "2025-05-27T09:45:00+00:00",
+                "estimated": "2025-05-27T09:45:00+00:00",
+                "actual": "2025-05-27T09:48:00+00:00",
+                "estimated_runway": "2025-05-27T09:48:00+00:00",
+                "actual_runway": "2025-05-27T09:48:00+00:00"
+            },
+            "arrival": {
+                "airport": "Helsinki-vantaa",
+                "timezone": "Europe/Helsinki",
+                "iata": "HEL",
+                "icao": "EFHK",
+                "terminal": "5",
+                "gate": "5",
+                "baggage": "12",
+                "delay": null,
+                "scheduled": "2025-05-27T11:30:00+00:00",
+                "estimated": "2025-05-27T11:19:00+00:00",
+                "actual": "2025-05-27T11:13:00+00:00",
+                "estimated_runway": "2025-05-27T11:13:00+00:00",
+                "actual_runway": "2025-05-27T11:13:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9028",
+                "iata": "AA9028",
+                "icao": "AAL9028",
+                "codeshared": {
+                    "airline_name": "finnair",
+                    "airline_iata": "ay",
+                    "airline_icao": "fin",
+                    "flight_number": "1102",
+                    "flight_iata": "ay1102",
+                    "flight_icao": "fin1102"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Chitose",
+                "timezone": "Asia/Tokyo",
+                "iata": "CTS",
+                "icao": "RJCC",
+                "terminal": "D",
+                "gate": "12",
+                "delay": 17,
+                "scheduled": "2025-05-27T16:00:00+00:00",
+                "estimated": "2025-05-27T16:00:00+00:00",
+                "actual": "2025-05-27T16:17:00+00:00",
+                "estimated_runway": "2025-05-27T16:17:00+00:00",
+                "actual_runway": "2025-05-27T16:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": 2,
+                "scheduled": "2025-05-27T17:40:00+00:00",
+                "estimated": "2025-05-27T17:39:00+00:00",
+                "actual": "2025-05-27T17:42:00+00:00",
+                "estimated_runway": "2025-05-27T17:42:00+00:00",
+                "actual_runway": "2025-05-27T17:42:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8449",
+                "iata": "AA8449",
+                "icao": "AAL8449",
+                "codeshared": {
+                    "airline_name": "japan airlines (oneworld livery)",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "516",
+                    "flight_iata": "jl516",
+                    "flight_icao": "jal516"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "3",
+                "gate": "142",
+                "delay": 42,
+                "scheduled": "2025-05-27T07:55:00+00:00",
+                "estimated": "2025-05-27T07:55:00+00:00",
+                "actual": "2025-05-27T08:36:00+00:00",
+                "estimated_runway": "2025-05-27T08:36:00+00:00",
+                "actual_runway": "2025-05-27T08:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": null,
+                "baggage": null,
+                "delay": 16,
+                "scheduled": "2025-05-27T09:05:00+00:00",
+                "estimated": "2025-05-27T09:20:00+00:00",
+                "actual": "2025-05-27T09:21:00+00:00",
+                "estimated_runway": "2025-05-27T09:21:00+00:00",
+                "actual_runway": "2025-05-27T09:21:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "6622",
+                "iata": "AA6622",
+                "icao": "AAL6622",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "1383",
+                    "flight_iata": "ba1383",
+                    "flight_icao": "baw1383"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Cork",
+                "timezone": "Europe/Dublin",
+                "iata": "ORK",
+                "icao": "EICK",
+                "terminal": null,
+                "gate": "3",
+                "delay": 18,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:37:00+00:00",
+                "estimated_runway": "2025-05-27T07:37:00+00:00",
+                "actual_runway": "2025-05-27T07:37:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "4",
+                "delay": 2,
+                "scheduled": "2025-05-27T08:40:00+00:00",
+                "estimated": "2025-05-27T08:37:00+00:00",
+                "actual": "2025-05-27T08:42:00+00:00",
+                "estimated_runway": "2025-05-27T08:42:00+00:00",
+                "actual_runway": "2025-05-27T08:42:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8068",
+                "iata": "AA8068",
+                "icao": "AAL8068",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "710",
+                    "flight_iata": "ei710",
+                    "flight_icao": "ein710"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "B8",
+                "delay": 21,
+                "scheduled": "2025-05-27T02:35:00+00:00",
+                "estimated": "2025-05-27T02:35:00+00:00",
+                "actual": "2025-05-27T02:55:00+00:00",
+                "estimated_runway": "2025-05-27T02:55:00+00:00",
+                "actual_runway": "2025-05-27T02:55:00+00:00"
+            },
+            "arrival": {
+                "airport": "Oliver Reginald Tambo International (Jan Smuts International)",
+                "timezone": "Africa/Johannesburg",
+                "iata": "JNB",
+                "icao": "FAOR",
+                "terminal": "A",
+                "gate": "7",
+                "baggage": "A6",
+                "delay": null,
+                "scheduled": "2025-05-27T10:00:00+00:00",
+                "estimated": "2025-05-27T09:34:00+00:00",
+                "actual": "2025-05-27T09:33:00+00:00",
+                "estimated_runway": "2025-05-27T09:33:00+00:00",
+                "actual_runway": "2025-05-27T09:33:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8301",
+                "iata": "AA8301",
+                "icao": "AAL8301",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "1363",
+                    "flight_iata": "qr1363",
+                    "flight_icao": "qtr1363"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "E7",
+                "delay": 21,
+                "scheduled": "2025-05-27T02:35:00+00:00",
+                "estimated": "2025-05-27T02:35:00+00:00",
+                "actual": "2025-05-27T02:56:00+00:00",
+                "estimated_runway": "2025-05-27T02:56:00+00:00",
+                "actual_runway": "2025-05-27T02:56:00+00:00"
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C3",
+                "baggage": "E",
+                "delay": null,
+                "scheduled": "2025-05-27T15:10:00+00:00",
+                "estimated": "2025-05-27T14:53:00+00:00",
+                "actual": "2025-05-27T14:53:00+00:00",
+                "estimated_runway": "2025-05-27T14:53:00+00:00",
+                "actual_runway": "2025-05-27T14:53:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8166",
+                "iata": "AA8166",
+                "icao": "AAL8166",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "852",
+                    "flight_iata": "qr852",
+                    "flight_icao": "qtr852"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C58",
+                "delay": 39,
+                "scheduled": "2025-05-27T02:30:00+00:00",
+                "estimated": "2025-05-27T02:30:00+00:00",
+                "actual": "2025-05-27T03:09:00+00:00",
+                "estimated_runway": "2025-05-27T03:09:00+00:00",
+                "actual_runway": "2025-05-27T03:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": 21,
+                "scheduled": "2025-05-27T13:50:00+00:00",
+                "estimated": "2025-05-27T14:06:00+00:00",
+                "actual": "2025-05-27T14:11:00+00:00",
+                "estimated_runway": "2025-05-27T14:11:00+00:00",
+                "actual_runway": "2025-05-27T14:11:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8259",
+                "iata": "AA8259",
+                "icao": "AAL8259",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "970",
+                    "flight_iata": "qr970",
+                    "flight_icao": "qtr970"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K92",
+                "delay": 17,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:36:00+00:00",
+                "estimated_runway": "2025-05-27T07:36:00+00:00",
+                "actual_runway": "2025-05-27T07:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Asturias",
+                "timezone": "Europe/Madrid",
+                "iata": "OVD",
+                "icao": "LEAS",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-27T08:35:00+00:00",
+                "estimated": null,
+                "actual": "2025-05-27T08:20:00+00:00",
+                "estimated_runway": "2025-05-27T08:20:00+00:00",
+                "actual_runway": "2025-05-27T08:20:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8606",
+                "iata": "AA8606",
+                "icao": "AAL8606",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1119",
+                    "flight_iata": "ib1119",
+                    "flight_icao": "ibe1119"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K88",
+                "delay": 20,
+                "scheduled": "2025-05-27T07:10:00+00:00",
+                "estimated": "2025-05-27T07:10:00+00:00",
+                "actual": "2025-05-27T07:30:00+00:00",
+                "estimated_runway": "2025-05-27T07:30:00+00:00",
+                "actual_runway": "2025-05-27T07:30:00+00:00"
+            },
+            "arrival": {
+                "airport": "Mérignac",
+                "timezone": "Europe/Paris",
+                "iata": "BOD",
+                "icao": "LFBD",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T08:35:00+00:00",
+                "estimated": "2025-05-27T08:31:00+00:00",
+                "actual": "2025-05-27T08:25:00+00:00",
+                "estimated_runway": "2025-05-27T08:25:00+00:00",
+                "actual_runway": "2025-05-27T08:25:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8621",
+                "iata": "AA8621",
+                "icao": "AAL8621",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1199",
+                    "flight_iata": "ib1199",
+                    "flight_icao": "ibe1199"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Mérignac",
+                "timezone": "Europe/Paris",
+                "iata": "BOD",
+                "icao": "LFBD",
+                "terminal": "A",
+                "gate": "60",
+                "delay": 4,
+                "scheduled": "2025-05-27T09:05:00+00:00",
+                "estimated": "2025-05-27T09:05:00+00:00",
+                "actual": "2025-05-27T09:09:00+00:00",
+                "estimated_runway": "2025-05-27T09:09:00+00:00",
+                "actual_runway": "2025-05-27T09:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4S",
+                "gate": null,
+                "baggage": "01",
+                "delay": null,
+                "scheduled": "2025-05-27T10:30:00+00:00",
+                "estimated": "2025-05-27T10:02:00+00:00",
+                "actual": "2025-05-27T10:05:00+00:00",
+                "estimated_runway": "2025-05-27T10:05:00+00:00",
+                "actual_runway": "2025-05-27T10:05:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8830",
+                "iata": "AA8830",
+                "icao": "AAL8830",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1200",
+                    "flight_iata": "ib1200",
+                    "flight_icao": "ibe1200"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "D44",
+                "delay": 19,
+                "scheduled": "2025-05-27T08:05:00+00:00",
+                "estimated": "2025-05-27T08:05:00+00:00",
+                "actual": "2025-05-27T08:24:00+00:00",
+                "estimated_runway": "2025-05-27T08:24:00+00:00",
+                "actual_runway": "2025-05-27T08:24:00+00:00"
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "2",
+                "gate": "99",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T16:10:00+00:00",
+                "estimated": "2025-05-27T15:52:00+00:00",
+                "actual": "2025-05-27T15:52:00+00:00",
+                "estimated_runway": "2025-05-27T15:52:00+00:00",
+                "actual_runway": "2025-05-27T15:52:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8413",
+                "iata": "AA8413",
+                "icao": "AAL8413",
+                "codeshared": {
+                    "airline_name": "japan airlines",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "712",
+                    "flight_iata": "jl712",
+                    "flight_icao": "jal712"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C9",
+                "delay": 29,
+                "scheduled": "2025-05-27T02:05:00+00:00",
+                "estimated": "2025-05-27T02:05:00+00:00",
+                "actual": "2025-05-27T02:34:00+00:00",
+                "estimated_runway": "2025-05-27T02:34:00+00:00",
+                "actual_runway": "2025-05-27T02:34:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cape Town International",
+                "timezone": "Africa/Johannesburg",
+                "iata": "CPT",
+                "icao": "FACT",
+                "terminal": "1",
+                "gate": "A4",
+                "baggage": "1.4",
+                "delay": null,
+                "scheduled": "2025-05-27T10:50:00+00:00",
+                "estimated": "2025-05-27T10:47:00+00:00",
+                "actual": "2025-05-27T10:48:00+00:00",
+                "estimated_runway": "2025-05-27T10:48:00+00:00",
+                "actual_runway": "2025-05-27T10:48:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8285",
+                "iata": "AA8285",
+                "icao": "AAL8285",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "1369",
+                    "flight_iata": "qr1369",
+                    "flight_icao": "qtr1369"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "B1",
+                "delay": 21,
+                "scheduled": "2025-05-27T02:05:00+00:00",
+                "estimated": "2025-05-27T02:05:00+00:00",
+                "actual": "2025-05-27T02:26:00+00:00",
+                "estimated_runway": "2025-05-27T02:26:00+00:00",
+                "actual_runway": "2025-05-27T02:26:00+00:00"
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T12:55:00+00:00",
+                "estimated": "2025-05-27T12:36:00+00:00",
+                "actual": "2025-05-27T12:36:00+00:00",
+                "estimated_runway": "2025-05-27T12:36:00+00:00",
+                "actual_runway": "2025-05-27T12:36:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8266",
+                "iata": "AA8266",
+                "icao": "AAL8266",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "834",
+                    "flight_iata": "qr834",
+                    "flight_icao": "qtr834"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-05-27T09:20:00+00:00",
+                "estimated": "2025-05-27T09:20:00+00:00",
+                "actual": "2025-05-27T09:29:00+00:00",
+                "estimated_runway": "2025-05-27T09:29:00+00:00",
+                "actual_runway": "2025-05-27T09:29:00+00:00"
+            },
+            "arrival": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "6",
+                "delay": null,
+                "scheduled": "2025-05-27T12:45:00+00:00",
+                "estimated": "2025-05-27T12:38:00+00:00",
+                "actual": "2025-05-27T12:39:00+00:00",
+                "estimated_runway": "2025-05-27T12:39:00+00:00",
+                "actual_runway": "2025-05-27T12:39:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8312",
+                "iata": "AA8312",
+                "icao": "AAL8312",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "975",
+                    "flight_iata": "qr975",
+                    "flight_icao": "qtr975"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dabok",
+                "timezone": "Asia/Kolkata",
+                "iata": "UDR",
+                "icao": "VAUD",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2025-05-27T11:40:00+00:00",
+                "estimated": "2025-05-27T11:40:00+00:00",
+                "actual": "2025-05-27T11:52:00+00:00",
+                "estimated_runway": "2025-05-27T11:52:00+00:00",
+                "actual_runway": "2025-05-27T11:52:00+00:00"
+            },
+            "arrival": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "004",
+                "delay": null,
+                "scheduled": "2025-05-27T13:00:00+00:00",
+                "estimated": "2025-05-27T12:46:00+00:00",
+                "actual": "2025-05-27T12:51:00+00:00",
+                "estimated_runway": "2025-05-27T12:51:00+00:00",
+                "actual_runway": "2025-05-27T12:51:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9198",
+                "iata": "AA9198",
+                "icao": "AAL9198",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "2099",
+                    "flight_iata": "6e2099",
+                    "flight_icao": "igo2099"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Ibiza",
+                "timezone": "Europe/Madrid",
+                "iata": "IBZ",
+                "icao": "LEIB",
+                "terminal": "TIBZ",
+                "gate": "06",
+                "delay": 11,
+                "scheduled": "2025-05-27T09:00:00+00:00",
+                "estimated": "2025-05-27T09:00:00+00:00",
+                "actual": "2025-05-27T09:11:00+00:00",
+                "estimated_runway": "2025-05-27T09:11:00+00:00",
+                "actual_runway": "2025-05-27T09:11:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "12",
+                "delay": null,
+                "scheduled": "2025-05-27T10:15:00+00:00",
+                "estimated": "2025-05-27T09:56:00+00:00",
+                "actual": "2025-05-27T09:56:00+00:00",
+                "estimated_runway": "2025-05-27T09:56:00+00:00",
+                "actual_runway": "2025-05-27T09:56:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8845",
+                "iata": "AA8845",
+                "icao": "AAL8845",
+                "codeshared": {
+                    "airline_name": "iberia express",
+                    "airline_iata": "i2",
+                    "airline_icao": "ibs",
+                    "flight_number": "1692",
+                    "flight_iata": "i21692",
+                    "flight_icao": "ibs1692"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Juan Santamaría International",
+                "timezone": "America/Costa_Rica",
+                "iata": "SJO",
+                "icao": "MROC",
+                "terminal": "M",
+                "gate": "HG",
+                "delay": 10,
+                "scheduled": "2025-05-27T01:06:00+00:00",
+                "estimated": "2025-05-27T01:06:00+00:00",
+                "actual": "2025-05-27T01:16:00+00:00",
+                "estimated_runway": "2025-05-27T01:16:00+00:00",
+                "actual_runway": "2025-05-27T01:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": "139",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T06:29:00+00:00",
+                "estimated": "2025-05-27T06:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9369",
+                "iata": "AA9369",
+                "icao": "AAL9369",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "1351",
+                    "flight_iata": "as1351",
+                    "flight_icao": "asa1351"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "active"
+        },
+        {
+            "departure": {
+                "airport": "Shannon",
+                "timezone": "Europe/Dublin",
+                "iata": "SNN",
+                "icao": "EINN",
+                "terminal": null,
+                "gate": "9",
+                "delay": 15,
+                "scheduled": "2025-05-27T07:40:00+00:00",
+                "estimated": "2025-05-27T07:40:00+00:00",
+                "actual": "2025-05-27T07:55:00+00:00",
+                "estimated_runway": "2025-05-27T07:55:00+00:00",
+                "actual_runway": "2025-05-27T07:55:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "5",
+                "delay": 3,
+                "scheduled": "2025-05-27T09:05:00+00:00",
+                "estimated": "2025-05-27T09:06:00+00:00",
+                "actual": "2025-05-27T09:08:00+00:00",
+                "estimated_runway": "2025-05-27T09:08:00+00:00",
+                "actual_runway": "2025-05-27T09:08:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8060",
+                "iata": "AA8060",
+                "icao": "AAL8060",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "380",
+                    "flight_iata": "ei380",
+                    "flight_icao": "ein380"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Marco Polo",
+                "timezone": "Europe/Rome",
+                "iata": "VCE",
+                "icao": "LIPZ",
+                "terminal": null,
+                "gate": null,
+                "delay": 18,
+                "scheduled": "2025-05-27T08:45:00+00:00",
+                "estimated": "2025-05-27T08:45:00+00:00",
+                "actual": "2025-05-27T09:03:00+00:00",
+                "estimated_runway": "2025-05-27T09:03:00+00:00",
+                "actual_runway": "2025-05-27T09:03:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T10:10:00+00:00",
+                "estimated": "2025-05-27T10:03:00+00:00",
+                "actual": "2025-05-27T10:09:00+00:00",
+                "estimated_runway": "2025-05-27T10:09:00+00:00",
+                "actual_runway": "2025-05-27T10:09:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7211",
+                "iata": "AA7211",
+                "icao": "AAL7211",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "599",
+                    "flight_iata": "ba599",
+                    "flight_icao": "baw599"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Geneve-cointrin",
+                "timezone": "Europe/Zurich",
+                "iata": "GVA",
+                "icao": "LSGG",
+                "terminal": "1",
+                "gate": "D27",
+                "delay": 21,
+                "scheduled": "2025-05-27T09:50:00+00:00",
+                "estimated": "2025-05-27T09:50:00+00:00",
+                "actual": "2025-05-27T10:11:00+00:00",
+                "estimated_runway": "2025-05-27T10:11:00+00:00",
+                "actual_runway": "2025-05-27T10:11:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2025-05-27T11:55:00+00:00",
+                "estimated": "2025-05-27T11:39:00+00:00",
+                "actual": "2025-05-27T11:36:00+00:00",
+                "estimated_runway": "2025-05-27T11:36:00+00:00",
+                "actual_runway": "2025-05-27T11:36:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8735",
+                "iata": "AA8735",
+                "icao": "AAL8735",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1276",
+                    "flight_iata": "ib1276",
+                    "flight_icao": "ibe1276"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K66",
+                "delay": 13,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:32:00+00:00",
+                "estimated_runway": "2025-05-27T07:32:00+00:00",
+                "actual_runway": "2025-05-27T07:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "La Coruna",
+                "timezone": "Europe/Madrid",
+                "iata": "LCG",
+                "icao": "LECO",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2025-05-27T08:40:00+00:00",
+                "estimated": "2025-05-27T08:26:00+00:00",
+                "actual": "2025-05-27T08:24:00+00:00",
+                "estimated_runway": "2025-05-27T08:24:00+00:00",
+                "actual_runway": "2025-05-27T08:24:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8648",
+                "iata": "AA8648",
+                "icao": "AAL8648",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1111",
+                    "flight_iata": "ib1111",
+                    "flight_icao": "ibe1111"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Milano Malpensa",
+                "timezone": "Europe/Rome",
+                "iata": "MXP",
+                "icao": "LIMC",
+                "terminal": "1",
+                "gate": "B51",
+                "delay": 21,
+                "scheduled": "2025-05-27T08:25:00+00:00",
+                "estimated": "2025-05-27T08:25:00+00:00",
+                "actual": "2025-05-27T08:46:00+00:00",
+                "estimated_runway": "2025-05-27T08:46:00+00:00",
+                "actual_runway": "2025-05-27T08:46:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": null,
+                "baggage": "7",
+                "delay": 4,
+                "scheduled": "2025-05-27T09:30:00+00:00",
+                "estimated": "2025-05-27T09:34:00+00:00",
+                "actual": "2025-05-27T09:34:00+00:00",
+                "estimated_runway": "2025-05-27T09:34:00+00:00",
+                "actual_runway": "2025-05-27T09:34:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7250",
+                "iata": "AA7250",
+                "icao": "AAL7250",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "585",
+                    "flight_iata": "ba585",
+                    "flight_icao": "baw585"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Itami",
+                "timezone": "Asia/Tokyo",
+                "iata": "ITM",
+                "icao": "RJOO",
+                "terminal": null,
+                "gate": "18",
+                "delay": 18,
+                "scheduled": "2025-05-27T15:40:00+00:00",
+                "estimated": "2025-05-27T15:40:00+00:00",
+                "actual": "2025-05-27T15:58:00+00:00",
+                "estimated_runway": "2025-05-27T15:58:00+00:00",
+                "actual_runway": "2025-05-27T15:58:00+00:00"
+            },
+            "arrival": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T17:00:00+00:00",
+                "estimated": "2025-05-27T16:43:00+00:00",
+                "actual": "2025-05-27T16:44:00+00:00",
+                "estimated_runway": "2025-05-27T16:44:00+00:00",
+                "actual_runway": "2025-05-27T16:44:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8461",
+                "iata": "AA8461",
+                "icao": "AAL8461",
+                "codeshared": {
+                    "airline_name": "japan airlines",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "124",
+                    "flight_iata": "jl124",
+                    "flight_icao": "jal124"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "H8",
+                "delay": 19,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:39:00+00:00",
+                "estimated_runway": "2025-05-27T07:39:00+00:00",
+                "actual_runway": "2025-05-27T07:39:00+00:00"
+            },
+            "arrival": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T07:45:00+00:00",
+                "estimated": "2025-05-27T07:31:00+00:00",
+                "actual": "2025-05-27T07:35:00+00:00",
+                "estimated_runway": "2025-05-27T07:35:00+00:00",
+                "actual_runway": "2025-05-27T07:35:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8743",
+                "iata": "AA8743",
+                "icao": "AAL8743",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "529",
+                    "flight_iata": "ib529",
+                    "flight_icao": "ibe529"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "delay": 26,
+                "scheduled": "2025-05-27T07:15:00+00:00",
+                "estimated": "2025-05-27T07:15:00+00:00",
+                "actual": "2025-05-27T07:41:00+00:00",
+                "estimated_runway": "2025-05-27T07:41:00+00:00",
+                "actual_runway": "2025-05-27T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T10:10:00+00:00",
+                "estimated": "2025-05-27T10:02:00+00:00",
+                "actual": "2025-05-27T10:07:00+00:00",
+                "estimated_runway": "2025-05-27T10:07:00+00:00",
+                "actual_runway": "2025-05-27T10:07:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7063",
+                "iata": "AA7063",
+                "icao": "AAL7063",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "499",
+                    "flight_iata": "ba499",
+                    "flight_icao": "baw499"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Kastrup",
+                "timezone": "Europe/Copenhagen",
+                "iata": "CPH",
+                "icao": "EKCH",
+                "terminal": "2",
+                "gate": "A12",
+                "delay": 13,
+                "scheduled": "2025-05-27T08:50:00+00:00",
+                "estimated": "2025-05-27T08:50:00+00:00",
+                "actual": "2025-05-27T09:02:00+00:00",
+                "estimated_runway": "2025-05-27T09:02:00+00:00",
+                "actual_runway": "2025-05-27T09:02:00+00:00"
+            },
+            "arrival": {
+                "airport": "Helsinki-vantaa",
+                "timezone": "Europe/Helsinki",
+                "iata": "HEL",
+                "icao": "EFHK",
+                "terminal": "5",
+                "gate": "18",
+                "baggage": "7",
+                "delay": null,
+                "scheduled": "2025-05-27T11:20:00+00:00",
+                "estimated": "2025-05-27T11:19:00+00:00",
+                "actual": "2025-05-27T11:19:00+00:00",
+                "estimated_runway": "2025-05-27T11:19:00+00:00",
+                "actual_runway": "2025-05-27T11:19:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9017",
+                "iata": "AA9017",
+                "icao": "AAL9017",
+                "codeshared": {
+                    "airline_name": "finnair",
+                    "airline_iata": "ay",
+                    "airline_icao": "fin",
+                    "flight_number": "952",
+                    "flight_iata": "ay952",
+                    "flight_icao": "fin952"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Gran Canaria",
+                "timezone": "Atlantic/Canary",
+                "iata": "LPA",
+                "icao": "GCLP",
+                "terminal": null,
+                "gate": null,
+                "delay": 16,
+                "scheduled": "2025-05-27T07:30:00+00:00",
+                "estimated": "2025-05-27T07:30:00+00:00",
+                "actual": "2025-05-27T07:46:00+00:00",
+                "estimated_runway": "2025-05-27T07:46:00+00:00",
+                "actual_runway": "2025-05-27T07:46:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "13",
+                "delay": 1,
+                "scheduled": "2025-05-27T11:15:00+00:00",
+                "estimated": "2025-05-27T11:12:00+00:00",
+                "actual": "2025-05-27T11:16:00+00:00",
+                "estimated_runway": "2025-05-27T11:16:00+00:00",
+                "actual_runway": "2025-05-27T11:16:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8764",
+                "iata": "AA8764",
+                "icao": "AAL8764",
+                "codeshared": {
+                    "airline_name": "iberia express",
+                    "airline_iata": "i2",
+                    "airline_icao": "ibs",
+                    "flight_number": "1630",
+                    "flight_iata": "i21630",
+                    "flight_icao": "ibs1630"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Fukuoka",
+                "timezone": "Asia/Tokyo",
+                "iata": "FUK",
+                "icao": "RJFF",
+                "terminal": "D",
+                "gate": "10",
+                "delay": 33,
+                "scheduled": "2025-05-27T16:00:00+00:00",
+                "estimated": "2025-05-27T16:00:00+00:00",
+                "actual": "2025-05-27T16:33:00+00:00",
+                "estimated_runway": "2025-05-27T16:33:00+00:00",
+                "actual_runway": "2025-05-27T16:33:00+00:00"
+            },
+            "arrival": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T17:50:00+00:00",
+                "estimated": "2025-05-27T17:44:00+00:00",
+                "actual": "2025-05-27T17:47:00+00:00",
+                "estimated_runway": "2025-05-27T17:47:00+00:00",
+                "actual_runway": "2025-05-27T17:47:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8448",
+                "iata": "AA8448",
+                "icao": "AAL8448",
+                "codeshared": {
+                    "airline_name": "japan airlines",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "320",
+                    "flight_iata": "jl320",
+                    "flight_icao": "jal320"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "J45",
+                "delay": 21,
+                "scheduled": "2025-05-27T07:40:00+00:00",
+                "estimated": "2025-05-27T07:40:00+00:00",
+                "actual": "2025-05-27T08:01:00+00:00",
+                "estimated_runway": "2025-05-27T08:01:00+00:00",
+                "actual_runway": "2025-05-27T08:01:00+00:00"
+            },
+            "arrival": {
+                "airport": "San Pablo",
+                "timezone": "Europe/Madrid",
+                "iata": "SVQ",
+                "icao": "LEZL",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "7",
+                "delay": null,
+                "scheduled": "2025-05-27T08:50:00+00:00",
+                "estimated": "2025-05-27T08:41:00+00:00",
+                "actual": "2025-05-27T08:44:00+00:00",
+                "estimated_runway": "2025-05-27T08:44:00+00:00",
+                "actual_runway": "2025-05-27T08:44:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8696",
+                "iata": "AA8696",
+                "icao": "AAL8696",
+                "codeshared": {
+                    "airline_name": "iberia express",
+                    "airline_iata": "i2",
+                    "airline_icao": "ibs",
+                    "flight_number": "1751",
+                    "flight_iata": "i21751",
+                    "flight_icao": "ibs1751"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Frederic Chopin",
+                "timezone": "Europe/Warsaw",
+                "iata": "WAW",
+                "icao": "EPWA",
+                "terminal": null,
+                "gate": null,
+                "delay": 17,
+                "scheduled": "2025-05-27T08:55:00+00:00",
+                "estimated": "2025-05-27T08:55:00+00:00",
+                "actual": "2025-05-27T09:12:00+00:00",
+                "estimated_runway": "2025-05-27T09:12:00+00:00",
+                "actual_runway": "2025-05-27T09:12:00+00:00"
+            },
+            "arrival": {
+                "airport": "Helsinki-vantaa",
+                "timezone": "Europe/Helsinki",
+                "iata": "HEL",
+                "icao": "EFHK",
+                "terminal": "1",
+                "gate": "15",
+                "baggage": "5",
+                "delay": null,
+                "scheduled": "2025-05-27T11:35:00+00:00",
+                "estimated": "2025-05-27T11:30:00+00:00",
+                "actual": "2025-05-27T11:29:00+00:00",
+                "estimated_runway": "2025-05-27T11:29:00+00:00",
+                "actual_runway": "2025-05-27T11:29:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8977",
+                "iata": "AA8977",
+                "icao": "AAL8977",
+                "codeshared": {
+                    "airline_name": "finnair",
+                    "airline_iata": "ay",
+                    "airline_icao": "fin",
+                    "flight_number": "1142",
+                    "flight_iata": "ay1142",
+                    "flight_icao": "fin1142"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Frederic Chopin",
+                "timezone": "Europe/Warsaw",
+                "iata": "WAW",
+                "icao": "EPWA",
+                "terminal": null,
+                "gate": null,
+                "delay": 31,
+                "scheduled": "2025-05-27T08:50:00+00:00",
+                "estimated": "2025-05-27T08:50:00+00:00",
+                "actual": "2025-05-27T09:21:00+00:00",
+                "estimated_runway": "2025-05-27T09:21:00+00:00",
+                "actual_runway": "2025-05-27T09:21:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "5",
+                "gate": null,
+                "baggage": null,
+                "delay": 2,
+                "scheduled": "2025-05-27T10:35:00+00:00",
+                "estimated": "2025-05-27T10:34:00+00:00",
+                "actual": "2025-05-27T10:37:00+00:00",
+                "estimated_runway": "2025-05-27T10:37:00+00:00",
+                "actual_runway": "2025-05-27T10:37:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "6887",
+                "iata": "AA6887",
+                "icao": "AAL6887",
+                "codeshared": {
+                    "airline_name": "british airways",
+                    "airline_iata": "ba",
+                    "airline_icao": "baw",
+                    "flight_number": "879",
+                    "flight_iata": "ba879",
+                    "flight_icao": "baw879"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Akron/canton Regional",
+                "timezone": "America/New_York",
+                "iata": "CAK",
+                "icao": "KCAK",
+                "terminal": null,
+                "gate": "9",
+                "delay": 2,
+                "scheduled": "2025-05-27T06:16:00+00:00",
+                "estimated": "2025-05-27T06:16:00+00:00",
+                "actual": "2025-05-27T06:17:00+00:00",
+                "estimated_runway": "2025-05-27T06:17:00+00:00",
+                "actual_runway": "2025-05-27T06:17:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ronald Reagan Washington National Airport",
+                "timezone": "America/New_York",
+                "iata": "DCA",
+                "icao": "KDCA",
+                "terminal": "2",
+                "gate": "E58",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2025-05-27T07:38:00+00:00",
+                "estimated": "2025-05-27T07:04:00+00:00",
+                "actual": "2025-05-27T07:09:00+00:00",
+                "estimated_runway": "2025-05-27T07:09:00+00:00",
+                "actual_runway": "2025-05-27T07:09:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "5062",
+                "iata": "AA5062",
+                "icao": "AAL5062",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N522AE",
+                "iata": "CRJ7",
+                "icao": "CRJ7",
+                "icao24": "A69061"
+            },
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C34",
+                "delay": 29,
+                "scheduled": "2025-05-27T09:00:00+00:00",
+                "estimated": "2025-05-27T09:00:00+00:00",
+                "actual": "2025-05-27T09:29:00+00:00",
+                "estimated_runway": "2025-05-27T09:29:00+00:00",
+                "actual_runway": "2025-05-27T09:29:00+00:00"
+            },
+            "arrival": {
+                "airport": "Bahrain International",
+                "timezone": "Asia/Bahrain",
+                "iata": "BAH",
+                "icao": "OBBI",
+                "terminal": "TA",
+                "gate": "17B",
+                "baggage": "A03",
+                "delay": 1,
+                "scheduled": "2025-05-27T09:50:00+00:00",
+                "estimated": "2025-05-27T09:52:00+00:00",
+                "actual": "2025-05-27T09:51:00+00:00",
+                "estimated_runway": "2025-05-27T09:51:00+00:00",
+                "actual_runway": "2025-05-27T09:51:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8253",
+                "iata": "AA8253",
+                "icao": "AAL8253",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "1102",
+                    "flight_iata": "qr1102",
+                    "flight_icao": "qtr1102"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "2",
+                "gate": "93",
+                "delay": 7,
+                "scheduled": "2025-05-27T14:25:00+00:00",
+                "estimated": "2025-05-27T14:25:00+00:00",
+                "actual": "2025-05-27T14:32:00+00:00",
+                "estimated_runway": "2025-05-27T14:32:00+00:00",
+                "actual_runway": "2025-05-27T14:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ninoy Aquino International",
+                "timezone": "Asia/Manila",
+                "iata": "MNL",
+                "icao": "RPLL",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T18:25:00+00:00",
+                "estimated": "2025-05-27T17:56:00+00:00",
+                "actual": "2025-05-27T18:01:00+00:00",
+                "estimated_runway": "2025-05-27T18:01:00+00:00",
+                "actual_runway": "2025-05-27T18:01:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8338",
+                "iata": "AA8338",
+                "icao": "AAL8338",
+                "codeshared": {
+                    "airline_name": "philippine airlines",
+                    "airline_iata": "pr",
+                    "airline_icao": "pal",
+                    "flight_number": "427",
+                    "flight_iata": "pr427",
+                    "flight_icao": "pal427"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "J58",
+                "delay": 22,
+                "scheduled": "2025-05-27T07:10:00+00:00",
+                "estimated": "2025-05-27T07:10:00+00:00",
+                "actual": "2025-05-27T07:31:00+00:00",
+                "estimated_runway": "2025-05-27T07:31:00+00:00",
+                "actual_runway": "2025-05-27T07:31:00+00:00"
+            },
+            "arrival": {
+                "airport": "El Prat De Llobregat",
+                "timezone": "Europe/Madrid",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "15",
+                "delay": 8,
+                "scheduled": "2025-05-27T08:25:00+00:00",
+                "estimated": "2025-05-27T08:30:00+00:00",
+                "actual": "2025-05-27T08:33:00+00:00",
+                "estimated_runway": "2025-05-27T08:33:00+00:00",
+                "actual_runway": "2025-05-27T08:33:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8572",
+                "iata": "AA8572",
+                "icao": "AAL8572",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "403",
+                    "flight_iata": "ib403",
+                    "flight_icao": "ibe403"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "H18",
+                "delay": 25,
+                "scheduled": "2025-05-27T07:25:00+00:00",
+                "estimated": "2025-05-27T07:25:00+00:00",
+                "actual": "2025-05-27T07:49:00+00:00",
+                "estimated_runway": "2025-05-27T07:49:00+00:00",
+                "actual_runway": "2025-05-27T07:49:00+00:00"
+            },
+            "arrival": {
+                "airport": "Bilbao",
+                "timezone": "Europe/Madrid",
+                "iata": "BIO",
+                "icao": "LEBB",
+                "terminal": "O",
+                "gate": null,
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-27T08:30:00+00:00",
+                "estimated": "2025-05-27T08:26:00+00:00",
+                "actual": "2025-05-27T08:24:00+00:00",
+                "estimated_runway": "2025-05-27T08:24:00+00:00",
+                "actual_runway": "2025-05-27T08:24:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8618",
+                "iata": "AA8618",
+                "icao": "AAL8618",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "429",
+                    "flight_iata": "ib429",
+                    "flight_icao": "ibe429"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K64",
+                "delay": 43,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T08:02:00+00:00",
+                "estimated_runway": "2025-05-27T08:02:00+00:00",
+                "actual_runway": "2025-05-27T08:02:00+00:00"
+            },
+            "arrival": {
+                "airport": "Francisco Sá Carneiro",
+                "timezone": "Europe/Lisbon",
+                "iata": "OPO",
+                "icao": "LPPR",
+                "terminal": "S",
+                "gate": null,
+                "baggage": null,
+                "delay": 15,
+                "scheduled": "2025-05-27T07:35:00+00:00",
+                "estimated": "2025-05-27T07:49:00+00:00",
+                "actual": "2025-05-27T07:50:00+00:00",
+                "estimated_runway": "2025-05-27T07:50:00+00:00",
+                "actual_runway": "2025-05-27T07:50:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8820",
+                "iata": "AA8820",
+                "icao": "AAL8820",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1147",
+                    "flight_iata": "ib1147",
+                    "flight_icao": "ibe1147"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K84",
+                "delay": 24,
+                "scheduled": "2025-05-27T07:15:00+00:00",
+                "estimated": "2025-05-27T07:15:00+00:00",
+                "actual": "2025-05-27T07:39:00+00:00",
+                "estimated_runway": "2025-05-27T07:39:00+00:00",
+                "actual_runway": "2025-05-27T07:39:00+00:00"
+            },
+            "arrival": {
+                "airport": "Blagnac",
+                "timezone": "Europe/Paris",
+                "iata": "TLS",
+                "icao": "LFBO",
+                "terminal": "1",
+                "gate": "4",
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-27T08:35:00+00:00",
+                "estimated": "2025-05-27T08:39:00+00:00",
+                "actual": "2025-05-27T08:32:00+00:00",
+                "estimated_runway": "2025-05-27T08:32:00+00:00",
+                "actual_runway": "2025-05-27T08:32:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8753",
+                "iata": "AA8753",
+                "icao": "AAL8753",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1189",
+                    "flight_iata": "ib1189",
+                    "flight_icao": "ibe1189"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Blagnac",
+                "timezone": "Europe/Paris",
+                "iata": "TLS",
+                "icao": "LFBO",
+                "terminal": null,
+                "gate": "51",
+                "delay": 28,
+                "scheduled": "2025-05-27T09:05:00+00:00",
+                "estimated": "2025-05-27T09:05:00+00:00",
+                "actual": "2025-05-27T09:33:00+00:00",
+                "estimated_runway": "2025-05-27T09:33:00+00:00",
+                "actual_runway": "2025-05-27T09:33:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4S",
+                "gate": null,
+                "baggage": "01",
+                "delay": null,
+                "scheduled": "2025-05-27T10:30:00+00:00",
+                "estimated": "2025-05-27T10:28:00+00:00",
+                "actual": "2025-05-27T10:29:00+00:00",
+                "estimated_runway": "2025-05-27T10:29:00+00:00",
+                "actual_runway": "2025-05-27T10:29:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8670",
+                "iata": "AA8670",
+                "icao": "AAL8670",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1190",
+                    "flight_iata": "ib1190",
+                    "flight_icao": "ibe1190"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "B9",
+                "delay": 16,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:36:00+00:00",
+                "estimated_runway": "2025-05-27T07:36:00+00:00",
+                "actual_runway": "2025-05-27T07:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Mohammad Bin Abdulaziz",
+                "timezone": "Asia/Riyadh",
+                "iata": "MED",
+                "icao": "OEMA",
+                "terminal": "T5",
+                "gate": null,
+                "baggage": "06",
+                "delay": null,
+                "scheduled": "2025-05-27T09:45:00+00:00",
+                "estimated": "2025-05-27T09:26:00+00:00",
+                "actual": "2025-05-27T09:26:00+00:00",
+                "estimated_runway": "2025-05-27T09:26:00+00:00",
+                "actual_runway": "2025-05-27T09:26:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8243",
+                "iata": "AA8243",
+                "icao": "AAL8243",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "1178",
+                    "flight_iata": "qr1178",
+                    "flight_icao": "qtr1178"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Les Anglades",
+                "timezone": "Africa/Casablanca",
+                "iata": "OUD",
+                "icao": "GMFO",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-05-27T07:15:00+00:00",
+                "estimated": "2025-05-27T07:15:00+00:00",
+                "actual": "2025-05-27T06:59:00+00:00",
+                "estimated_runway": "2025-05-27T06:59:00+00:00",
+                "actual_runway": "2025-05-27T06:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Mohamed V",
+                "timezone": "Africa/Casablanca",
+                "iata": "CMN",
+                "icao": "GMMN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T08:25:00+00:00",
+                "estimated": "2025-05-27T07:49:00+00:00",
+                "actual": "2025-05-27T07:50:00+00:00",
+                "estimated_runway": "2025-05-27T07:50:00+00:00",
+                "actual_runway": "2025-05-27T07:50:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7988",
+                "iata": "AA7988",
+                "icao": "AAL7988",
+                "codeshared": {
+                    "airline_name": "royal air maroc",
+                    "airline_iata": "at",
+                    "airline_icao": "ram",
+                    "flight_number": "1401",
+                    "flight_iata": "at1401",
+                    "flight_icao": "ram1401"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C39",
+                "delay": 17,
+                "scheduled": "2025-05-27T08:20:00+00:00",
+                "estimated": "2025-05-27T08:20:00+00:00",
+                "actual": "2025-05-27T08:37:00+00:00",
+                "estimated_runway": "2025-05-27T08:37:00+00:00",
+                "actual_runway": "2025-05-27T08:37:00+00:00"
+            },
+            "arrival": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T09:20:00+00:00",
+                "estimated": "2025-05-27T09:13:00+00:00",
+                "actual": "2025-05-27T09:13:00+00:00",
+                "estimated_runway": "2025-05-27T09:13:00+00:00",
+                "actual_runway": "2025-05-27T09:13:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8290",
+                "iata": "AA8290",
+                "icao": "AAL8290",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "1150",
+                    "flight_iata": "qr1150",
+                    "flight_icao": "qtr1150"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "B10",
+                "delay": 12,
+                "scheduled": "2025-05-27T03:15:00+00:00",
+                "estimated": "2025-05-27T03:15:00+00:00",
+                "actual": "2025-05-27T03:27:00+00:00",
+                "estimated_runway": "2025-05-27T03:27:00+00:00",
+                "actual_runway": "2025-05-27T03:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "Noibai International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "HAN",
+                "icao": "VVNB",
+                "terminal": "T2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T14:00:00+00:00",
+                "estimated": "2025-05-27T13:40:00+00:00",
+                "actual": "2025-05-27T13:39:00+00:00",
+                "estimated_runway": "2025-05-27T13:39:00+00:00",
+                "actual_runway": "2025-05-27T13:39:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8297",
+                "iata": "AA8297",
+                "icao": "AAL8297",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "976",
+                    "flight_iata": "qr976",
+                    "flight_icao": "qtr976"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Indira Gandhi International",
+                "timezone": "Asia/Kolkata",
+                "iata": "DEL",
+                "icao": "VIDP",
+                "terminal": "1",
+                "gate": "D20",
+                "delay": 14,
+                "scheduled": "2025-05-27T07:00:00+00:00",
+                "estimated": "2025-05-27T07:00:00+00:00",
+                "actual": "2025-05-27T07:14:00+00:00",
+                "estimated_runway": "2025-05-27T07:14:00+00:00",
+                "actual_runway": "2025-05-27T07:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "Bangalore International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "BLR",
+                "icao": "VOBL",
+                "terminal": "1",
+                "gate": "A2",
+                "baggage": "04",
+                "delay": null,
+                "scheduled": "2025-05-27T09:55:00+00:00",
+                "estimated": "2025-05-27T09:31:00+00:00",
+                "actual": "2025-05-27T09:50:00+00:00",
+                "estimated_runway": "2025-05-27T09:50:00+00:00",
+                "actual_runway": "2025-05-27T09:50:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9179",
+                "iata": "AA9179",
+                "icao": "AAL9179",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "2103",
+                    "flight_iata": "6e2103",
+                    "flight_icao": "igo2103"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K91",
+                "delay": 17,
+                "scheduled": "2025-05-27T07:30:00+00:00",
+                "estimated": "2025-05-27T07:30:00+00:00",
+                "actual": "2025-05-27T07:47:00+00:00",
+                "estimated_runway": "2025-05-27T07:47:00+00:00",
+                "actual_runway": "2025-05-27T07:47:00+00:00"
+            },
+            "arrival": {
+                "airport": "Donostia - San Sebastian",
+                "timezone": "Europe/Madrid",
+                "iata": "EAS",
+                "icao": "LESO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "delay": null,
+                "scheduled": "2025-05-27T08:40:00+00:00",
+                "estimated": null,
+                "actual": "2025-05-27T08:24:00+00:00",
+                "estimated_runway": "2025-05-27T08:24:00+00:00",
+                "actual_runway": "2025-05-27T08:24:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8588",
+                "iata": "AA8588",
+                "icao": "AAL8588",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "443",
+                    "flight_iata": "ib443",
+                    "flight_icao": "ibe443"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Berlin Brandenburg Airport",
+                "timezone": "+1",
+                "iata": "BER",
+                "icao": "EDDB",
+                "terminal": "1",
+                "gate": "A32",
+                "delay": 41,
+                "scheduled": "2025-05-27T08:50:00+00:00",
+                "estimated": "2025-05-27T08:50:00+00:00",
+                "actual": "2025-05-27T09:30:00+00:00",
+                "estimated_runway": "2025-05-27T09:30:00+00:00",
+                "actual_runway": "2025-05-27T09:30:00+00:00"
+            },
+            "arrival": {
+                "airport": "Helsinki-vantaa",
+                "timezone": "Europe/Helsinki",
+                "iata": "HEL",
+                "icao": "EFHK",
+                "terminal": "1",
+                "gate": "27",
+                "baggage": "4",
+                "delay": 19,
+                "scheduled": "2025-05-27T11:45:00+00:00",
+                "estimated": "2025-05-27T12:02:00+00:00",
+                "actual": "2025-05-27T12:04:00+00:00",
+                "estimated_runway": "2025-05-27T12:04:00+00:00",
+                "actual_runway": "2025-05-27T12:04:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9016",
+                "iata": "AA9016",
+                "icao": "AAL9016",
+                "codeshared": {
+                    "airline_name": "danish air",
+                    "airline_iata": "dx",
+                    "airline_icao": "dtr",
+                    "flight_number": "1432",
+                    "flight_iata": "dx1432",
+                    "flight_icao": "dtr1432"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "2",
+                "delay": 14,
+                "scheduled": "2025-05-27T14:15:00+00:00",
+                "estimated": "2025-05-27T14:15:00+00:00",
+                "actual": "2025-05-27T14:28:00+00:00",
+                "estimated_runway": "2025-05-27T14:28:00+00:00",
+                "actual_runway": "2025-05-27T14:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "Juanda",
+                "timezone": "Asia/Jakarta",
+                "iata": "SUB",
+                "icao": "WARR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2025-05-27T18:00:00+00:00",
+                "estimated": "2025-05-27T17:35:00+00:00",
+                "actual": "2025-05-27T17:39:00+00:00",
+                "estimated_runway": "2025-05-27T17:39:00+00:00",
+                "actual_runway": "2025-05-27T17:39:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8920",
+                "iata": "AA8920",
+                "icao": "AAL8920",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "779",
+                    "flight_iata": "cx779",
+                    "flight_icao": "cpa779"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "307A",
+                "delay": 25,
+                "scheduled": "2025-05-27T07:40:00+00:00",
+                "estimated": "2025-05-27T07:40:00+00:00",
+                "actual": "2025-05-27T08:05:00+00:00",
+                "estimated_runway": "2025-05-27T08:05:00+00:00",
+                "actual_runway": "2025-05-27T08:05:00+00:00"
+            },
+            "arrival": {
+                "airport": "Marco Polo",
+                "timezone": "Europe/Rome",
+                "iata": "VCE",
+                "icao": "LIPZ",
+                "terminal": "2B",
+                "gate": null,
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-27T11:25:00+00:00",
+                "estimated": "2025-05-27T11:25:00+00:00",
+                "actual": "2025-05-27T11:15:00+00:00",
+                "estimated_runway": "2025-05-27T11:15:00+00:00",
+                "actual_runway": "2025-05-27T11:15:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8101",
+                "iata": "AA8101",
+                "icao": "AAL8101",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "422",
+                    "flight_iata": "ei422",
+                    "flight_icao": "ein422"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "410",
+                "delay": 41,
+                "scheduled": "2025-05-27T07:35:00+00:00",
+                "estimated": "2025-05-27T07:35:00+00:00",
+                "actual": "2025-05-27T08:16:00+00:00",
+                "estimated_runway": "2025-05-27T08:16:00+00:00",
+                "actual_runway": "2025-05-27T08:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Faro",
+                "timezone": "Europe/Lisbon",
+                "iata": "FAO",
+                "icao": "LPFR",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": 10,
+                "scheduled": "2025-05-27T10:35:00+00:00",
+                "estimated": "2025-05-27T10:45:00+00:00",
+                "actual": "2025-05-27T10:45:00+00:00",
+                "estimated_runway": "2025-05-27T10:45:00+00:00",
+                "actual_runway": "2025-05-27T10:45:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8091",
+                "iata": "AA8091",
+                "icao": "AAL8091",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "492",
+                    "flight_iata": "ei492",
+                    "flight_icao": "ein492"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "303",
+                "delay": 27,
+                "scheduled": "2025-05-27T07:35:00+00:00",
+                "estimated": "2025-05-27T07:35:00+00:00",
+                "actual": "2025-05-27T08:02:00+00:00",
+                "estimated_runway": "2025-05-27T08:02:00+00:00",
+                "actual_runway": "2025-05-27T08:02:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dubrovnik",
+                "timezone": "Europe/Zagreb",
+                "iata": "DBV",
+                "icao": "LDDU",
+                "terminal": "N",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T12:00:00+00:00",
+                "estimated": "2025-05-27T11:44:00+00:00",
+                "actual": "2025-05-27T11:40:00+00:00",
+                "estimated_runway": "2025-05-27T11:40:00+00:00",
+                "actual_runway": "2025-05-27T11:40:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8018",
+                "iata": "AA8018",
+                "icao": "AAL8018",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "476",
+                    "flight_iata": "ei476",
+                    "flight_icao": "ein476"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "412",
+                "delay": 36,
+                "scheduled": "2025-05-27T07:35:00+00:00",
+                "estimated": "2025-05-27T07:35:00+00:00",
+                "actual": "2025-05-27T08:11:00+00:00",
+                "estimated_runway": "2025-05-27T08:11:00+00:00",
+                "actual_runway": "2025-05-27T08:11:00+00:00"
+            },
+            "arrival": {
+                "airport": "Prague Vaclav Havel Airport",
+                "timezone": "Europe/Prague",
+                "iata": "PRG",
+                "icao": "LKPR",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "12",
+                "delay": null,
+                "scheduled": "2025-05-27T11:10:00+00:00",
+                "estimated": "2025-05-27T11:07:00+00:00",
+                "actual": "2025-05-27T11:03:00+00:00",
+                "estimated_runway": "2025-05-27T11:03:00+00:00",
+                "actual_runway": "2025-05-27T11:03:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8013",
+                "iata": "AA8013",
+                "icao": "AAL8013",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "642",
+                    "flight_iata": "ei642",
+                    "flight_icao": "ein642"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "302",
+                "delay": 26,
+                "scheduled": "2025-05-27T07:30:00+00:00",
+                "estimated": "2025-05-27T07:30:00+00:00",
+                "actual": "2025-05-27T07:56:00+00:00",
+                "estimated_runway": "2025-05-27T07:56:00+00:00",
+                "actual_runway": "2025-05-27T07:56:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "4",
+                "delay": null,
+                "scheduled": "2025-05-27T11:10:00+00:00",
+                "estimated": "2025-05-27T10:50:00+00:00",
+                "actual": "2025-05-27T10:52:00+00:00",
+                "estimated_runway": "2025-05-27T10:52:00+00:00",
+                "actual_runway": "2025-05-27T10:52:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8094",
+                "iata": "AA8094",
+                "icao": "AAL8094",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "542",
+                    "flight_iata": "ei542",
+                    "flight_icao": "ein542"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "407",
+                "delay": 29,
+                "scheduled": "2025-05-27T07:30:00+00:00",
+                "estimated": "2025-05-27T07:30:00+00:00",
+                "actual": "2025-05-27T07:59:00+00:00",
+                "estimated_runway": "2025-05-27T07:59:00+00:00",
+                "actual_runway": "2025-05-27T07:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "9",
+                "delay": null,
+                "scheduled": "2025-05-27T09:05:00+00:00",
+                "estimated": "2025-05-27T08:53:00+00:00",
+                "actual": "2025-05-27T08:57:00+00:00",
+                "estimated_runway": "2025-05-27T08:57:00+00:00",
+                "actual_runway": "2025-05-27T08:57:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8034",
+                "iata": "AA8034",
+                "icao": "AAL8034",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "154",
+                    "flight_iata": "ei154",
+                    "flight_icao": "ein154"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "304",
+                "delay": 34,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:53:00+00:00",
+                "estimated_runway": "2025-05-27T07:53:00+00:00",
+                "actual_runway": "2025-05-27T07:53:00+00:00"
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "29",
+                "delay": null,
+                "scheduled": "2025-05-27T11:30:00+00:00",
+                "estimated": "2025-05-27T11:13:00+00:00",
+                "actual": "2025-05-27T11:14:00+00:00",
+                "estimated_runway": "2025-05-27T11:14:00+00:00",
+                "actual_runway": "2025-05-27T11:14:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8019",
+                "iata": "AA8019",
+                "icao": "AAL8019",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "580",
+                    "flight_iata": "ei580",
+                    "flight_icao": "ein580"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "335A",
+                "delay": 30,
+                "scheduled": "2025-05-27T07:20:00+00:00",
+                "estimated": "2025-05-27T07:20:00+00:00",
+                "actual": "2025-05-27T07:49:00+00:00",
+                "estimated_runway": "2025-05-27T07:49:00+00:00",
+                "actual_runway": "2025-05-27T07:49:00+00:00"
+            },
+            "arrival": {
+                "airport": "Vienna International",
+                "timezone": "Europe/Vienna",
+                "iata": "VIE",
+                "icao": "LOWW",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "08",
+                "delay": null,
+                "scheduled": "2025-05-27T11:10:00+00:00",
+                "estimated": "2025-05-27T11:04:00+00:00",
+                "actual": "2025-05-27T11:02:00+00:00",
+                "estimated_runway": "2025-05-27T11:02:00+00:00",
+                "actual_runway": "2025-05-27T11:02:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8095",
+                "iata": "AA8095",
+                "icao": "AAL8095",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "660",
+                    "flight_iata": "ei660",
+                    "flight_icao": "ein660"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "414",
+                "delay": 38,
+                "scheduled": "2025-05-27T07:15:00+00:00",
+                "estimated": "2025-05-27T07:15:00+00:00",
+                "actual": "2025-05-27T07:52:00+00:00",
+                "estimated_runway": "2025-05-27T07:52:00+00:00",
+                "actual_runway": "2025-05-27T07:52:00+00:00"
+            },
+            "arrival": {
+                "airport": "Liszt Ferenc International",
+                "timezone": "Europe/Budapest",
+                "iata": "BUD",
+                "icao": "LHBP",
+                "terminal": "2B",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T11:25:00+00:00",
+                "estimated": "2025-05-27T11:15:00+00:00",
+                "actual": "2025-05-27T11:19:00+00:00",
+                "estimated_runway": "2025-05-27T11:19:00+00:00",
+                "actual_runway": "2025-05-27T11:19:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8026",
+                "iata": "AA8026",
+                "icao": "AAL8026",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "672",
+                    "flight_iata": "ei672",
+                    "flight_icao": "ein672"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "411",
+                "delay": 32,
+                "scheduled": "2025-05-27T07:10:00+00:00",
+                "estimated": "2025-05-27T07:10:00+00:00",
+                "actual": "2025-05-27T07:41:00+00:00",
+                "estimated_runway": "2025-05-27T07:41:00+00:00",
+                "actual_runway": "2025-05-27T07:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T10:40:00+00:00",
+                "estimated": "2025-05-27T10:29:00+00:00",
+                "actual": "2025-05-27T10:29:00+00:00",
+                "estimated_runway": "2025-05-27T10:29:00+00:00",
+                "actual_runway": "2025-05-27T10:29:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8028",
+                "iata": "AA8028",
+                "icao": "AAL8028",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "352",
+                    "flight_iata": "ei352",
+                    "flight_icao": "ein352"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "T2",
+                "gate": "335E",
+                "delay": 26,
+                "scheduled": "2025-05-27T07:10:00+00:00",
+                "estimated": "2025-05-27T07:10:00+00:00",
+                "actual": "2025-05-27T07:36:00+00:00",
+                "estimated_runway": "2025-05-27T07:36:00+00:00",
+                "actual_runway": "2025-05-27T07:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Zurich",
+                "timezone": "Europe/Zurich",
+                "iata": "ZRH",
+                "icao": "LSZH",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "26",
+                "delay": null,
+                "scheduled": "2025-05-27T10:35:00+00:00",
+                "estimated": "2025-05-27T10:19:00+00:00",
+                "actual": "2025-05-27T10:14:00+00:00",
+                "estimated_runway": "2025-05-27T10:14:00+00:00",
+                "actual_runway": "2025-05-27T10:14:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8024",
+                "iata": "AA8024",
+                "icao": "AAL8024",
+                "codeshared": {
+                    "airline_name": "aer lingus",
+                    "airline_iata": "ei",
+                    "airline_icao": "ein",
+                    "flight_number": "342",
+                    "flight_iata": "ei342",
+                    "flight_icao": "ein342"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "H22",
+                "delay": 21,
+                "scheduled": "2025-05-27T07:25:00+00:00",
+                "estimated": "2025-05-27T07:25:00+00:00",
+                "actual": "2025-05-27T07:46:00+00:00",
+                "estimated_runway": "2025-05-27T07:46:00+00:00",
+                "actual_runway": "2025-05-27T07:46:00+00:00"
+            },
+            "arrival": {
+                "airport": "Santiago De Compostela",
+                "timezone": "Europe/Madrid",
+                "iata": "SCQ",
+                "icao": "LEST",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": "2",
+                "delay": null,
+                "scheduled": "2025-05-27T08:40:00+00:00",
+                "estimated": "2025-05-27T08:33:00+00:00",
+                "actual": "2025-05-27T08:34:00+00:00",
+                "estimated_runway": "2025-05-27T08:34:00+00:00",
+                "actual_runway": "2025-05-27T08:34:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8565",
+                "iata": "AA8565",
+                "icao": "AAL8565",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "517",
+                    "flight_iata": "ib517",
+                    "flight_icao": "ibe517"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "5",
+                "delay": 16,
+                "scheduled": "2025-05-27T13:25:00+00:00",
+                "estimated": "2025-05-27T13:25:00+00:00",
+                "actual": "2025-05-27T13:40:00+00:00",
+                "estimated_runway": "2025-05-27T13:40:00+00:00",
+                "actual_runway": "2025-05-27T13:40:00+00:00"
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "36",
+                "baggage": "8",
+                "delay": 5,
+                "scheduled": "2025-05-27T15:10:00+00:00",
+                "estimated": "2025-05-27T15:15:00+00:00",
+                "actual": "2025-05-27T15:15:00+00:00",
+                "estimated_runway": "2025-05-27T15:15:00+00:00",
+                "actual_runway": "2025-05-27T15:15:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7285",
+                "iata": "AA7285",
+                "icao": "AAL7285",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "144",
+                    "flight_iata": "qf144",
+                    "flight_icao": "qfa144"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Norfolk International Airport",
+                "timezone": "America/New_York",
+                "iata": "ORF",
+                "icao": "KORF",
+                "terminal": null,
+                "gate": "A2",
+                "delay": 12,
+                "scheduled": "2025-05-27T08:28:00+00:00",
+                "estimated": "2025-05-27T08:28:00+00:00",
+                "actual": "2025-05-27T08:50:00+00:00",
+                "estimated_runway": "2025-05-27T08:50:00+00:00",
+                "actual_runway": "2025-05-27T08:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "Philadelphia International",
+                "timezone": "America/New_York",
+                "iata": "PHL",
+                "icao": "KPHL",
+                "terminal": "F",
+                "gate": "14",
+                "baggage": "F2",
+                "delay": null,
+                "scheduled": "2025-05-27T09:39:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "5271",
+                "iata": "AA5271",
+                "icao": "AAL5271",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N557NN",
+                "iata": "CRJ9",
+                "icao": "CRJ9",
+                "icao24": "A71AA5"
+            },
+            "live": {
+                "updated": "2025-05-27T13:00:54+00:00",
+                "latitude": 38.0195,
+                "longitude": -75.5044,
+                "altitude": 6400.8,
+                "direction": 27.0,
+                "speed_horizontal": 772.284,
+                "speed_vertical": 0.0,
+                "is_ground": false
+            },
+            "flight_date": "2025-05-27",
+            "flight_status": "scheduled"
+        },
+        {
+            "departure": {
+                "airport": "Manchester-boston Regional Airport",
+                "timezone": "America/New_York",
+                "iata": "MHT",
+                "icao": "KMHT",
+                "terminal": null,
+                "gate": "8",
+                "delay": 4,
+                "scheduled": "2025-05-27T05:29:00+00:00",
+                "estimated": "2025-05-27T05:29:00+00:00",
+                "actual": "2025-05-27T05:33:00+00:00",
+                "estimated_runway": "2025-05-27T05:33:00+00:00",
+                "actual_runway": "2025-05-27T05:33:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ronald Reagan Washington National Airport",
+                "timezone": "America/New_York",
+                "iata": "DCA",
+                "icao": "KDCA",
+                "terminal": "2",
+                "gate": "E51",
+                "baggage": "10",
+                "delay": null,
+                "scheduled": "2025-05-27T07:19:00+00:00",
+                "estimated": "2025-05-27T06:56:00+00:00",
+                "actual": "2025-05-27T06:57:00+00:00",
+                "estimated_runway": "2025-05-27T06:57:00+00:00",
+                "actual_runway": "2025-05-27T06:57:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "5160",
+                "iata": "AA5160",
+                "icao": "AAL5160",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "N531EG",
+                "iata": "CRJ7",
+                "icao": "CRJ7",
+                "icao24": "A6B48F"
+            },
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "John Paul II Balice International",
+                "timezone": "Europe/Warsaw",
+                "iata": "KRK",
+                "icao": "EPKK",
+                "terminal": null,
+                "gate": null,
+                "delay": 6,
+                "scheduled": "2025-05-27T08:55:00+00:00",
+                "estimated": "2025-05-27T08:55:00+00:00",
+                "actual": "2025-05-27T09:01:00+00:00",
+                "estimated_runway": "2025-05-27T09:01:00+00:00",
+                "actual_runway": "2025-05-27T09:01:00+00:00"
+            },
+            "arrival": {
+                "airport": "Helsinki-vantaa",
+                "timezone": "Europe/Helsinki",
+                "iata": "HEL",
+                "icao": "EFHK",
+                "terminal": "1",
+                "gate": "16",
+                "baggage": "11",
+                "delay": null,
+                "scheduled": "2025-05-27T11:50:00+00:00",
+                "estimated": "2025-05-27T11:42:00+00:00",
+                "actual": "2025-05-27T11:36:00+00:00",
+                "estimated_runway": "2025-05-27T11:36:00+00:00",
+                "actual_runway": "2025-05-27T11:36:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9014",
+                "iata": "AA9014",
+                "icao": "AAL9014",
+                "codeshared": {
+                    "airline_name": "finnair",
+                    "airline_iata": "ay",
+                    "airline_icao": "fin",
+                    "flight_number": "1162",
+                    "flight_iata": "ay1162",
+                    "flight_icao": "fin1162"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "6",
+                "delay": 44,
+                "scheduled": "2025-05-27T12:35:00+00:00",
+                "estimated": "2025-05-27T12:35:00+00:00",
+                "actual": "2025-05-27T13:18:00+00:00",
+                "estimated_runway": "2025-05-27T13:18:00+00:00",
+                "actual_runway": "2025-05-27T13:18:00+00:00"
+            },
+            "arrival": {
+                "airport": "Adelaide International Airport",
+                "timezone": "Australia/Adelaide",
+                "iata": "ADL",
+                "icao": "YPAD",
+                "terminal": "1",
+                "gate": "21",
+                "baggage": null,
+                "delay": 32,
+                "scheduled": "2025-05-27T14:15:00+00:00",
+                "estimated": "2025-05-27T14:46:00+00:00",
+                "actual": "2025-05-27T14:47:00+00:00",
+                "estimated_runway": "2025-05-27T14:47:00+00:00",
+                "actual_runway": "2025-05-27T14:47:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7334",
+                "iata": "AA7334",
+                "icao": "AAL7334",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "737",
+                    "flight_iata": "qf737",
+                    "flight_icao": "qfa737"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Adelaide International Airport",
+                "timezone": "Australia/Adelaide",
+                "iata": "ADL",
+                "icao": "YPAD",
+                "terminal": "1",
+                "gate": "21",
+                "delay": 60,
+                "scheduled": "2025-05-27T12:45:00+00:00",
+                "estimated": "2025-05-27T12:45:00+00:00",
+                "actual": "2025-05-27T13:44:00+00:00",
+                "estimated_runway": "2025-05-27T13:44:00+00:00",
+                "actual_runway": "2025-05-27T13:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "3",
+                "gate": "3",
+                "baggage": "QFR",
+                "delay": 35,
+                "scheduled": "2025-05-27T15:05:00+00:00",
+                "estimated": "2025-05-27T15:36:00+00:00",
+                "actual": "2025-05-27T15:40:00+00:00",
+                "estimated_runway": "2025-05-27T15:40:00+00:00",
+                "actual_runway": "2025-05-27T15:40:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7266",
+                "iata": "AA7266",
+                "icao": "AAL7266",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "740",
+                    "flight_iata": "qf740",
+                    "flight_icao": "qfa740"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Harbin",
+                "timezone": "Asia/Shanghai",
+                "iata": "HRB",
+                "icao": "ZYHB",
+                "terminal": "T2",
+                "gate": "31",
+                "delay": 14,
+                "scheduled": "2025-05-27T10:40:00+00:00",
+                "estimated": "2025-05-27T10:40:00+00:00",
+                "actual": "2025-05-27T10:53:00+00:00",
+                "estimated_runway": "2025-05-27T10:53:00+00:00",
+                "actual_runway": "2025-05-27T10:53:00+00:00"
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "37",
+                "delay": null,
+                "scheduled": "2025-05-27T13:50:00+00:00",
+                "estimated": "2025-05-27T13:19:00+00:00",
+                "actual": "2025-05-27T13:18:00+00:00",
+                "estimated_runway": "2025-05-27T13:18:00+00:00",
+                "actual_runway": "2025-05-27T13:18:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9082",
+                "iata": "AA9082",
+                "icao": "AAL9082",
+                "codeshared": {
+                    "airline_name": "china southern airlines",
+                    "airline_iata": "cz",
+                    "airline_icao": "csn",
+                    "flight_number": "6209",
+                    "flight_iata": "cz6209",
+                    "flight_icao": "csn6209"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Cairo International Airport",
+                "timezone": "Africa/Cairo",
+                "iata": "CAI",
+                "icao": "HECA",
+                "terminal": "2",
+                "gate": null,
+                "delay": 15,
+                "scheduled": "2025-05-27T09:40:00+00:00",
+                "estimated": "2025-05-27T09:40:00+00:00",
+                "actual": "2025-05-27T09:54:00+00:00",
+                "estimated_runway": "2025-05-27T09:54:00+00:00",
+                "actual_runway": "2025-05-27T09:54:00+00:00"
+            },
+            "arrival": {
+                "airport": "Mohamed V",
+                "timezone": "Africa/Casablanca",
+                "iata": "CMN",
+                "icao": "GMMN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T13:30:00+00:00",
+                "estimated": "2025-05-27T13:18:00+00:00",
+                "actual": "2025-05-27T13:19:00+00:00",
+                "estimated_runway": "2025-05-27T13:19:00+00:00",
+                "actual_runway": "2025-05-27T13:19:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7972",
+                "iata": "AA7972",
+                "icao": "AAL7972",
+                "codeshared": {
+                    "airline_name": "royal air maroc",
+                    "airline_iata": "at",
+                    "airline_icao": "ram",
+                    "flight_number": "273",
+                    "flight_iata": "at273",
+                    "flight_icao": "ram273"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "H6",
+                "delay": 17,
+                "scheduled": "2025-05-27T07:15:00+00:00",
+                "estimated": "2025-05-27T07:15:00+00:00",
+                "actual": "2025-05-27T07:31:00+00:00",
+                "estimated_runway": "2025-05-27T07:31:00+00:00",
+                "actual_runway": "2025-05-27T07:31:00+00:00"
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "35",
+                "delay": null,
+                "scheduled": "2025-05-27T08:30:00+00:00",
+                "estimated": "2025-05-27T08:26:00+00:00",
+                "actual": "2025-05-27T08:26:00+00:00",
+                "estimated_runway": "2025-05-27T08:26:00+00:00",
+                "actual_runway": "2025-05-27T08:26:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8688",
+                "iata": "AA8688",
+                "icao": "AAL8688",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "527",
+                    "flight_iata": "ib527",
+                    "flight_icao": "ibe527"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Fukuoka",
+                "timezone": "Asia/Tokyo",
+                "iata": "FUK",
+                "icao": "RJFF",
+                "terminal": "D",
+                "gate": "8",
+                "delay": 36,
+                "scheduled": "2025-05-27T12:55:00+00:00",
+                "estimated": "2025-05-27T12:55:00+00:00",
+                "actual": "2025-05-27T13:31:00+00:00",
+                "estimated_runway": "2025-05-27T13:31:00+00:00",
+                "actual_runway": "2025-05-27T13:31:00+00:00"
+            },
+            "arrival": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": 14,
+                "scheduled": "2025-05-27T14:35:00+00:00",
+                "estimated": "2025-05-27T14:47:00+00:00",
+                "actual": "2025-05-27T14:49:00+00:00",
+                "estimated_runway": "2025-05-27T14:49:00+00:00",
+                "actual_runway": "2025-05-27T14:49:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8471",
+                "iata": "AA8471",
+                "icao": "AAL8471",
+                "codeshared": {
+                    "airline_name": "japan airlines (dream sho jet livery)",
+                    "airline_iata": "jl",
+                    "airline_icao": "jal",
+                    "flight_number": "314",
+                    "flight_iata": "jl314",
+                    "flight_icao": "jal314"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Melbourne - Tullamarine Airport",
+                "timezone": "Australia/Melbourne",
+                "iata": "MEL",
+                "icao": "YMML",
+                "terminal": "2",
+                "gate": "18B",
+                "delay": 46,
+                "scheduled": "2025-05-27T09:25:00+00:00",
+                "estimated": "2025-05-27T09:25:00+00:00",
+                "actual": "2025-05-27T10:10:00+00:00",
+                "estimated_runway": "2025-05-27T10:10:00+00:00",
+                "actual_runway": "2025-05-27T10:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": null,
+                "baggage": "ITB1",
+                "delay": 3,
+                "scheduled": "2025-05-27T15:05:00+00:00",
+                "estimated": "2025-05-27T15:07:00+00:00",
+                "actual": "2025-05-27T15:08:00+00:00",
+                "estimated_runway": "2025-05-27T15:08:00+00:00",
+                "actual_runway": "2025-05-27T15:08:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7394",
+                "iata": "AA7394",
+                "icao": "AAL7394",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "153",
+                    "flight_iata": "qf153",
+                    "flight_icao": "qfa153"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": "HIA",
+                "gate": "E2",
+                "delay": 24,
+                "scheduled": "2025-05-27T01:50:00+00:00",
+                "estimated": "2025-05-27T01:50:00+00:00",
+                "actual": "2025-05-27T02:14:00+00:00",
+                "estimated_runway": "2025-05-27T02:14:00+00:00",
+                "actual_runway": "2025-05-27T02:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "John F Kennedy International",
+                "timezone": "America/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2025-05-27T09:00:00+00:00",
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8308",
+                "iata": "AA8308",
+                "icao": "AAL8308",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "703",
+                    "flight_iata": "qr703",
+                    "flight_icao": "qtr703"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "active"
+        },
+        {
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C89",
+                "delay": 33,
+                "scheduled": "2025-05-27T01:50:00+00:00",
+                "estimated": "2025-05-27T01:50:00+00:00",
+                "actual": "2025-05-27T02:22:00+00:00",
+                "estimated_runway": "2025-05-27T02:22:00+00:00",
+                "actual_runway": "2025-05-27T02:22:00+00:00"
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C34",
+                "baggage": "F",
+                "delay": null,
+                "scheduled": "2025-05-27T14:45:00+00:00",
+                "estimated": "2025-05-27T14:36:00+00:00",
+                "actual": "2025-05-27T14:35:00+00:00",
+                "estimated_runway": "2025-05-27T14:35:00+00:00",
+                "actual_runway": "2025-05-27T14:35:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "9255",
+                "iata": "AA9255",
+                "icao": "AAL9255",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "161",
+                    "flight_iata": "mh161",
+                    "flight_icao": "mas161"
+                }
+            },
+            "aircraft": null,
+            "live": null,
+            "flight_date": "2025-05-27",
+            "flight_status": "landed"
+        }
+    ]
+}

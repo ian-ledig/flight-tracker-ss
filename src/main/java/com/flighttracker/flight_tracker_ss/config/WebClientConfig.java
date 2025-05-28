@@ -9,10 +9,13 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Configuration
 public class WebClientConfig {
 
+    @Value("${aviationstack.url}")
+    private String aviationStackUrl;
+
     @Bean
-    public WebClient adsbdbWebClient() {
+    public WebClient aviationStackWebClient() {
         return WebClient.builder()
-                .baseUrl("https://api.adsbdb.com/v0")
+                .baseUrl(aviationStackUrl)
                 .codecs(configurer -> {
                     ClientCodecConfigurer.ClientDefaultCodecs codecs = configurer.defaultCodecs();
                     codecs.maxInMemorySize(1024 * 1024);

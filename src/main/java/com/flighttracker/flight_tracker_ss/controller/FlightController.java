@@ -1,8 +1,8 @@
 package com.flighttracker.flight_tracker_ss.controller;
 
-import com.flighttracker.flight_tracker_ss.dto.FlightStateDto;
+import com.flighttracker.flight_tracker_ss.dto.AviationStackResponse;
 import com.flighttracker.flight_tracker_ss.exception.FlightNotFoundException;
-import com.flighttracker.flight_tracker_ss.service.FlightService;
+import com.flighttracker.flight_tracker_ss.service.AviationStackService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
@@ -11,15 +11,19 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/api")
 public class FlightController {
 
-    private final FlightService flightService;
+    private final AviationStackService aviationStackService;
 
-    public FlightController(FlightService flightService) {
-        this.flightService = flightService;
+    public FlightController(AviationStackService aviationStackService) {
+        this.aviationStackService = aviationStackService;
     }
 
-    @GetMapping("/flights/{callsign}")
-    public Mono<FlightStateDto> getFlightByCallsign(@PathVariable String callsign) {
-        return flightService.getFlightByCallsign(callsign);
+    @GetMapping("/flights/{airlineCode}")
+    public Mono<AviationStackResponse> getFlightByAirline(
+            @PathVariable String airlineCode,
+            @RequestParam(value = "flightNumber", required = false) String flightNumber
+    ) {
+        String input = flightNumber != null ? airlineCode + flightNumber : airlineCode;
+        return aviationStackService.getFlight(input);
     }
 
     @ExceptionHandler(FlightNotFoundException.class)
