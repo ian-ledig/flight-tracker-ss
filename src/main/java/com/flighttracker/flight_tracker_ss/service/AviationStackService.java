@@ -71,7 +71,7 @@ public class AviationStackService {
         }
     }
 
-    public Mono<AviationStackResponse> getFlight(String input) {
+    public Mono<AviationStackResponse> getFlights(String input) {
         AviationStackResponse cached = flightCache.getIfPresent(input);
         if (cached != null) {
             logger.info("Returning cached flight data for input: {}", input);
