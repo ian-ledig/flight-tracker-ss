@@ -18,6 +18,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -73,13 +74,13 @@ public class AviationStackService {
         }
     }
 
-    public Mono<AviationStackResponse> getFlights(String airlineIata, String flightNumber, boolean notDeparted) {
+    public Mono<AviationStackResponse> getFlights(String airlineIata, String flightNumber, boolean longHaul) {
         String flightCode = airlineIata + flightNumber;
         AviationStackResponse cached = flightCache.getIfPresent(flightCode);
 
         if (mockEnabled) {
             logger.info("Using mocked response for input: {}", flightCode);
-            return getMockedResponse(airlineIata, flightNumber, notDeparted);
+            return getMockedResponse(airlineIata, flightNumber, longHaul);
         }
         else if (cached != null) {
             logger.info("Returning cached flight data for input: {}", flightCode);
@@ -103,21 +104,24 @@ public class AviationStackService {
 
                     flightCache.put(flightCode, response);
 
-                    // filter not departed
-                    if(notDeparted){
-                        List<AviationStackResponse.Flight> notDepartedFlights = response.getData().stream()
-                                .filter(flight -> OffsetDateTime.parse(
-                                        flight.getDeparture().getScheduled(),
+                    // filter only long haul
+                    if(longHaul){
+                        List<AviationStackResponse.Flight> longHaulFlights = response.getData().stream()
+                                .filter(flight -> Duration.between(OffsetDateTime.parse(
+                                        flight.getDeparture().getEstimated() != null ? flight.getDeparture().getEstimated() : flight.getDeparture().getScheduled(),
                                         DateTimeFormatter.ISO_OFFSET_DATE_TIME
-                                ).isAfter(OffsetDateTime.now()))
+                                ), OffsetDateTime.parse(
+                                        flight.getArrival().getEstimated() != null ? flight.getArrival().getEstimated() : flight.getArrival().getScheduled(),
+                                        DateTimeFormatter.ISO_OFFSET_DATE_TIME
+                                )).toHours() >= 6)
                                 .toList();
 
-                        if (notDepartedFlights.isEmpty()) {
+                        if (longHaulFlights.isEmpty()) {
                             logger.warn(ResponseMessage.FLIGHTS_NOT_FOUND.getMessage(flightCode));
                             return Mono.error(new FlightNotFoundException(flightCode));
                         }
 
-                        response.setData(notDepartedFlights);
+                        response.setData(longHaulFlights);
                     }
                     return Mono.just(response);
                 })
@@ -127,7 +131,7 @@ public class AviationStackService {
                 });
     }
 
-    private Mono<AviationStackResponse> getMockedResponse(String airlineIata, String flightNumber, boolean notDeparted) {
+    private Mono<AviationStackResponse> getMockedResponse(String airlineIata, String flightNumber, boolean longHaul) {
         String flightCode = airlineIata + flightNumber;
         if (mockResponse == null || mockResponse.getData() == null) {
             logger.warn("No mock response available for input: {}", flightCode);
@@ -156,21 +160,24 @@ public class AviationStackService {
             return Mono.error(new FlightNotFoundException(flightCode));
         }
 
-        // filter not departed
-        if(notDeparted){
-            List<AviationStackResponse.Flight> notDepartedFlights = response.getData().stream()
-                    .filter(flight -> OffsetDateTime.parse(
-                            flight.getDeparture().getScheduled(),
+        // filter long haul
+        if(longHaul){
+            List<AviationStackResponse.Flight> longHaulFlights = response.getData().stream()
+                    .filter(flight -> Duration.between(OffsetDateTime.parse(
+                            flight.getDeparture().getEstimated() != null ? flight.getDeparture().getEstimated() : flight.getDeparture().getScheduled(),
                             DateTimeFormatter.ISO_OFFSET_DATE_TIME
-                    ).isAfter(OffsetDateTime.now()))
+                    ), OffsetDateTime.parse(
+                            flight.getArrival().getEstimated() != null ? flight.getArrival().getEstimated() : flight.getArrival().getScheduled(),
+                            DateTimeFormatter.ISO_OFFSET_DATE_TIME
+                    )).toHours() >= 6)
                     .toList();
 
-            if (notDepartedFlights.isEmpty()) {
+            if (longHaulFlights.isEmpty()) {
                 logger.warn(ResponseMessage.FLIGHTS_NOT_FOUND.getMessage(flightCode));
                 return Mono.error(new FlightNotFoundException(flightCode));
             }
 
-            response.setData(notDepartedFlights);
+            response.setData(longHaulFlights);
         }
 
         logger.debug("Mocked response for input {}: {} flights found", flightCode, matchingFlights.size());

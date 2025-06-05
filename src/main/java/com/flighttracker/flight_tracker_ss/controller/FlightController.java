@@ -1,5 +1,6 @@
 package com.flighttracker.flight_tracker_ss.controller;
 
+import com.flighttracker.flight_tracker_ss.dto.AviationStackResponse;
 import com.flighttracker.flight_tracker_ss.dto.FlightsDTO;
 import com.flighttracker.flight_tracker_ss.exception.FlightNotFoundException;
 import com.flighttracker.flight_tracker_ss.mapper.FlightMapper;
@@ -26,12 +27,12 @@ public class FlightController {
     public Mono<List<FlightsDTO>> getFlights(
             @PathVariable String airlineIata,
             @RequestParam(value = "flightNumber", required = false) String flightNumber,
-            @RequestParam(value = "notDeparted", required = false) String notDeparted
+            @RequestParam(value = "longHaul", required = false) String longHaul
     ) {
         return aviationStackService.getFlights(
                         airlineIata,
                         flightNumber == null ? "" : flightNumber,
-                        notDeparted != null
+                        longHaul != null
                 )
                 .map(response -> response.getData().stream()
                         .map(flightMapper::toFlightsDTO)

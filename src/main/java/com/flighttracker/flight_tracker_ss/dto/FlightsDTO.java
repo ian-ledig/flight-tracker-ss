@@ -8,6 +8,7 @@ public class FlightsDTO {
     private String flightNumber;
     private String depIata;
     private String arrIata;
+    private long duration;
     private String depScheduled;
     private String arrScheduled;
     private String depEstimated;
