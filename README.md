@@ -1,151 +1,161 @@
-# Flight Tracking Backend
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ian-ledig/flight-tracker-cs/master/public/images/logo/logo.svg" alt="Flight Tracker Logo" width="150" />
+  <h1>Flight Tracker (Backend)</h1>
+</div>
 
-Spring Boot backend application designed to fetch and serve real-time flight data to a web client. The application provides RESTful endpoints to retrieve flight states, aircraft positions, and other aviation-related data, leveraging reactive programming for efficient handling of real-time data.
+<p align="center">
+  <a href="#english">
+    <img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English">
+  </a>
+  <a href="#japanese">
+    <img src="https://img.shields.io/badge/日本語-blue?style=for-the-badge" alt="Japanese">
+  </a>
+</p>
 
-## Table of Contents
+## Demo <a id="demo"></a>
+### SOON
+<div align="center">
+  <video width="600" autoplay loop muted playsinline>
+    <source src="https://raw.githubusercontent.com/ian-ledig/flight-tracker-cs/master/public/demo/flight-tracker-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag. Please view the demo at <a href="https://raw.githubusercontent.com/ian-ledig/flight-tracker-cs/master/public/demo/flight-tracker-demo.mp4">this link</a>.
+  </video>
+</div>
 
-- Features
-- Tech Stack
-- Prerequisites
-- Installation
-- Configuration
-- Running the Application
-- API Endpoints
-- Project Structure
-- Contributing
-- License
+## Overview <a id="english"></a>
+Flight Tracker Backend (`flight-tracker-ss`) is a Spring Boot application that serves as the data provider for the `flight-tracker-cs` frontend ([GitHub](https://github.com/ian-ledig/flight-tracker-cs)). It integrates with the AviationStack API to fetch real-time flight data, enabling the frontend to display flight details, KPIs, and flight path visualizations.
 
 ## Features
-
-- Fetch real-time flight data (e.g., callsign, position, altitude, velocity) from the OpenSky Network API.
-- Expose RESTful endpoints for a web client to consume flight data.
-- Non-blocking HTTP requests using Spring WebFlux (`WebClient`) for efficient and scalable handling of real-time flight data.
-- Automatic mapping of JSON responses to Java DTOs using Jackson for seamless data processing.
-- Support for streaming updates (e.g., via Server-Sent Events) to enable real-time flight tracking.
-- CORS enabled to allow integration with web clients.
-- Configurable for authenticated OpenSky API access to bypass rate limits.
-
-## Tech Stack
-
-- **Java**: 21 (LTS)
-- **Spring Boot**: 3.3.x
-- **Spring WebFlux**: For reactive, non-blocking HTTP requests to handle real-time data efficiently
-- **Jackson**: For JSON serialization/deserialization to map OpenSky API responses to DTOs
-- **Maven**: Dependency management
-- **OpenSky Network API**: Source of real-time flight data (ADS-B)
+- **Flight Data API**: Provides endpoints to retrieve upcoming flight data based on IATA airline codes, flight numbers, and long-haul filters.
+- **AviationStack Integration**: Connects to the AviationStack API for accurate and up-to-date flight information.
+- **Support for Frontend**: Serves the `flight-tracker-cs` Next.js application with reliable data.
 
 ## Prerequisites
-
-- **Java 21**: Install OpenJDK 21 (e.g., via Adoptium).
-- **Maven**: Version 3.8+ for building the project.
-- **Git**: To clone the repository.
-- **OpenSky Network Account**: Optional, for authenticated API calls (higher rate limits). Register at [OpenSky Network](https://opensky-network.org).
-- **Web Client**: A frontend application (e.g., running on `http://localhost:3000`) to consume the API.
+- **Java**: Version 17 or higher (LTS recommended).
+- **Maven**: For building and managing dependencies.
+- **Git**: For cloning the repository.
+- An API key from [AviationStack](https://aviationstack.com/) for flight data.
 
 ## Installation
-
-1. **Clone the repository**:
-
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/flight-tracking-backend.git
-   cd flight-tracking-backend
+   git clone https://github.com/ian-ledig/flight-tracker-ss.git
+   cd flight-tracker-ss
    ```
 
-2. **Install dependencies**:
+2. **Configure the Application**:
+   Create an `application.yml` file in the root of the project with the following configuration:
+   ```yaml
+   aviationstack:
+     url: https://api.aviationstack.com/v1
+     access-key: YOUR-API-KEY
+     mock-enabled: false
+   server:
+     port: 8080
+   ```
+   Replace `YOUR-API-KEY` with your AviationStack API key.
 
+3. **Build the Application**:
    ```bash
    mvn clean install
    ```
 
-## Configuration
-
-1. **Application Properties**:
-
-   Edit `src/main/resources/application.yml` to configure the OpenSky API base URL and optional credentials:
-
-   ```yaml
-   opensky:
-     api:
-       url: https://opensky-network.org/api
-       username: your-username # Optional, for authenticated requests
-       password: your-password # Optional, for authenticated requests
-   server:
-     port: 8080
-   spring:
-     webflux:
-       base-path: /api
-   ```
-
-2. **CORS Configuration**:
-
-   CORS is enabled for `http://localhost:3000` (default web client development server). Update the allowed origins in `src/main/java/com/yourpackage/config/WebConfig.java` if your client runs on a different host/port.
-
-## Running the Application
-
-1. **Build and run**:
-
+4. **Run the Application**:
    ```bash
    mvn spring-boot:run
    ```
+   The server will start on `http://localhost:8080`.
 
-   The application will start on `http://localhost:8080`.
-
-2. **Verify the API**:
-
-   Use a browser, Postman, or curl to test the endpoint:
-
-   ```bash
-   curl http://localhost:8080/api/flights
-   ```
-
-## API Endpoints
-
-- **GET /api/flights**  
-  Retrieves all flight states from the OpenSky Network API.  
-  **Response**: JSON array of flight data (e.g., callsign, position, altitude, velocity).  
-  **Example**:
-
-  ```bash
-  curl http://localhost:8080/api/flights
-  ```
-
-- **GET /api/flights/stream** *(Planned)*  
-  Streams real-time flight updates using Server-Sent Events (SSE).  
-  **Response**: Continuous stream of flight data updates.  
-  **Example**:
-
-  ```bash
-  curl http://localhost:8080/api/flights/stream
-  ```
-
-*Note*: Additional endpoints (e.g., filtering by region or flight number) can be implemented based on requirements.
-
-## Project Structure
-
-```
-flight-tracking-backend/
-├── src/
-│   ├── main/
-│   │   ├── java/com/yourpackage/
-│   │   │   ├── config/         # Configuration classes (WebClient, CORS)
-│   │   │   ├── controller/     # REST controllers for API endpoints
-│   │   │   ├── service/        # Business logic for fetching/processing flight data
-│   │   │   ├── dto/           # Data Transfer Objects for mapping JSON responses
-│   │   │   └── Application.java # Main Spring Boot application class
-│   │   └── resources/
-│   │       └── application.yml # Configuration file
-├── pom.xml                     # Maven dependencies
-└── README.md                   # This file
-```
+## Usage
+- The backend provides RESTful endpoints consumed by the `flight-tracker-cs` frontend ([GitHub](https://github.com/ian-ledig/flight-tracker-cs)).
+- Ensure the AviationStack API key is valid and the server is running before starting the frontend application.
 
 ## Contributing
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
 
 ## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contact
+For questions or feedback, please contact the project maintainer at [ian.ledigjp@gmail.com](mailto:ian.ledigjp@gmail.com).
+
+---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ian-ledig/flight-tracker-cs/master/public/images/logo/logo.svg" alt="フライトトラッカーロゴ" width="150" />
+  <h1>フライトトラッカー（バックエンド）</h1>
+</div>
+
+<p align="center">
+  <a href="#english">
+    <img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English">
+  </a>
+  <a href="#japanese">
+    <img src="https://img.shields.io/badge/日本語-blue?style=for-the-badge" alt="Japanese">
+  </a>
+</p>
+
+## デモ <a id="japanese"></a>
+### SOON
+<div align="center">
+  <video width="600" autoplay loop muted playsinline>
+    <source src="https://raw.githubusercontent.com/ian-ledig/flight-tracker-cs/master/public/demo/flight-tracker-demo.mp4" type="video/mp4">
+    ブラウザがビデオタグをサポートしていません。デモは<a href="https://raw.githubusercontent.com/ian-ledig/flight-tracker-cs/master/public/demo/flight-tracker-demo.mp4">こちら</a>でご覧ください。
+  </video>
+</div>
+
+## 概要
+フライトトラッカーバックエンド（`flight-tracker-ss`）は、Spring Bootアプリケーションであり、`flight-tracker-cs`フロントエンド（[GitHub](https://github.com/ian-ledig/flight-tracker-cs)）のデータプロバイダーとして機能します。AviationStack APIと統合し、リアルタイムのフライトデータを提供し、フロントエンドでフライト詳細、KPI、フライト経路の可視化を表示できるようにします。
+
+## 機能
+- **フライトデータAPI**：IATA航空会社コード、フライト番号、長距離フィルターに基づいて近日中のフライトデータを取得するエンドポイントを提供。
+- **AviationStack統合**：正確で最新のフライト情報のためにAviationStack APIに接続。
+- **フロントエンドサポート**：`flight-tracker-cs` Next.jsアプリケーションに信頼性の高いデータを提供。
+
+## 前提条件
+- **Java**：バージョン17以上（LTS推奨）。
+- **Maven**：依存関係のビルドと管理に必要。
+- **Git**：リポジトリのクローンに必要。
+- フライトデータのための[AviationStack](https://aviationstack.com/)のAPIキー。
+
+## インストール
+1. **リポジトリをクローン**：
+   ```bash
+   git clone https://github.com/ian-ledig/flight-tracker-ss.git
+   cd flight-tracker-ss
+   ```
+
+2. **アプリケーションの設定**：
+   プロジェクトのルートに以下の設定を含む`application.yml`ファイルを作成：
+   ```yaml
+   aviationstack:
+     url: https://api.aviationstack.com/v1
+     access-key: YOUR-API-KEY
+     mock-enabled: false
+   server:
+     port: 8080
+   ```
+   `YOUR-API-KEY`をAviationStackのAPIキーに置き換える。
+
+3. **アプリケーションのビルド**：
+   ```bash
+   mvn clean install
+   ```
+
+4. **アプリケーションの実行**：
+   ```bash
+   mvn spring-boot:run
+   ```
+   サーバーは`http://localhost:8080`で起動。
+
+## 使用方法
+- バックエンドは、`flight-tracker-cs`フロントエンド（[GitHub](https://github.com/ian-ledig/flight-tracker-cs)）が使用するRESTfulエンドポイントを提供。
+- AviationStack APIキーが有効であり、フロントエンドアプリケーションを起動する前にサーバーが動作していることを確認。
+
+## 貢献
+貢献を歓迎します！リポジトリをフォークし、機能ブランチを作成し、変更をプルリクエストとして提出してください。コードがプロジェクトのコーディング規範に従い、適切なテストを含んでいることを確認してください。
+
+## ライセンス
+このプロジェクトはMITライセンスの下でライセンスされています。詳細は`LICENSE`ファイルを参照してください。
+
+## 連絡先
+ご質問やフィードバックは、プロジェクトメンテナー（[ian.ledigjp@gmail.com](mailto:ian.ledigjp@gmail.com)）までご連絡ください。
