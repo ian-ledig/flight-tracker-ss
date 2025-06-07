@@ -29,7 +29,7 @@ public class AviationStackResponse {
         private Arrival arrival;
         private Airline airline;
         private FlightDetails flight;
-        private Aircraft aircraft; // Déplacé ici
+        private Aircraft aircraft;
         private Live live;
     }
 

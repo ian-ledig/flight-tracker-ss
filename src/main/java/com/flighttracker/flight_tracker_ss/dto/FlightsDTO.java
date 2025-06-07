@@ -14,4 +14,5 @@ public class FlightsDTO {
     private String depEstimated;
     private String arrEstimated;
     private String aircraftIata;
+    private String status;
 }

@@ -20,6 +20,7 @@ public interface FlightMapper {
     @Mapping(target = "depEstimated", source = "departure.estimated")
     @Mapping(target = "arrEstimated", source = "arrival.estimated")
     @Mapping(target = "aircraftIata", source = "aircraft.iata")
+    @Mapping(target = "status", source = "flightStatus")
     FlightsDTO toFlightsDTO(AviationStackResponse.Flight flight);
 
     @AfterMapping
