@@ -1,0 +1,6 @@
+aviationstack:
+  url: https://api.aviationstack.com/v1
+  access-key: d51e8f5e5ffc4d250a9bc553977332d8
+  mock-enabled: true
+server:
+  port: 8080
